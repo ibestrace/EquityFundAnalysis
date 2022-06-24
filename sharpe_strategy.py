@@ -1,0 +1,150 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Jun 23 14:55:42 2022
+
+@author: ZHANGWEI
+"""
+import pandas as pd
+import backtrader as bt
+import quantstats as qs
+import datetime
+
+
+class SharpeStrategy(bt.Strategy):
+    # =========================================================================
+    #     基于调仓表的单因子选集
+    # =========================================================================
+    def __init__(self):
+        # =====================================================================
+        #         读取调仓表，表结构如下所示：
+        #               trade_date  fcode    weight
+        #         0     2006-12-31  481004   0.05
+        #         1     2006-12-31  240009   0.05
+        #         ...   ...         ...         ...
+        #         19    2021-12-31  005669   0.05
+        #                                    等权重
+        # =====================================================================
+        self.buy_fund = pd.read_pickle("data/trade_info.pkl")
+        # 读取调仓日期，即每年的最后一个交易日，回测时，会在这一天下单，然后在下一个交易日，以净值申购
+        self.trade_dates = pd.to_datetime(
+            self.buy_fund['trade_date'].unique()).tolist()
+        print(self.trade_dates)
+        self.order_list = []  # 记录以往订单，方便调仓日对未完成订单做处理
+        self.buy_funds_pre = []  # 记录上一期持仓
+        print('------------------初始化完成!------------------')
+
+    def log(self, txt, dt=None):
+        ''' 策略日志打印函数'''
+        dt = dt or self.datas[0].datetime.date(0)
+        print('%s, %s' % (dt.isoformat(), txt))
+
+    def next(self):
+        dt = self.datas[0].datetime.date(0)  # 获取当前的回测时间点
+        # print('运行中', dt)
+        # 如果是调仓日，则进行调仓操作
+        if dt in self.trade_dates:
+            print("--------------{} 为调仓日----------".format(dt))
+            # 在调仓之前，取消之前所下的没成交也未到期的订单
+            if len(self.order_list) > 0:
+                for od in self.order_list:
+                    self.cancel(od)  # 如果订单未完成，则撤销订单
+                self.order_list = []  # 重置订单列表
+            # 提取当前调仓日的持仓列表
+            buy_funds_data = self.buy_fund.query(f"trade_date=='{dt}'")
+            long_list = buy_funds_data['fcode'].tolist()
+            print('long_list', long_list)  # 打印持仓列表
+            # 对现有持仓中，调仓后不再继续持有的基金进行卖出平仓
+            sell_fund = [i for i in self.buy_funds_pre if i not in long_list]
+            print('sell_fund', sell_fund)  # 打印平仓列表
+            if len(sell_fund) > 0:
+                print("-----------对不再持有的基金进行平仓--------------")
+                for fund in sell_fund:
+                    data = self.getdatabyname(fund)
+                    if self.getposition(data).size > 0:
+                        od = self.close(data=data)
+                        self.order_list.append(od)  # 记录卖出订单
+            # 买入此次调仓的基金：多退少补原则
+            print("-----------买入此次调仓期的基金--------------")
+            for fund in long_list:
+                w = buy_funds_data.query(f"fcode=='{fund}'")[
+                    'weight'].iloc[0]  # 提取持仓权重
+                data = self.getdatabyname(fund)
+                order = self.order_target_percent(
+                    data=data, target=w*0.95)  # 为减少可用资金不足的情况，留 5% 的现金做备用
+                self.order_list.append(order)
+            self.buy_funds_pre = long_list  # 保存此次调仓的基金列表
+
+    def notify_order(self, order):
+        # 未被处理的订单
+        if order.status in [order.Submitted, order.Accepted]:
+            return
+        # 已经处理的订单
+        if order.status in [order.Completed, order.Canceled, order.Margin]:
+            if order.isbuy():
+                self.log(
+                    'BUY EXECUTED, ref:%.0f, Price: %.2f, Cost: %.2f, Comm %.2f, Size: %.2f, Fund: %s' %
+                        (order.ref,  # 订单编号
+                         order.executed.price,  # 成交价
+                         order.executed.value,  # 成交额
+                         order.executed.comm,  # 佣金
+                         order.executed.size,  # 成交量
+                         order.data._name))  # 基金名称
+            else:  # Sell
+                self.log('SELL EXECUTED, ref:%.0f, Price: %.2f, Cost: %.2f, Comm %.2f, Size: %.2f, Fund: %s' %
+                         (order.ref,
+                          order.executed.price,
+                          order.executed.value,
+                          order.executed.comm,
+                          order.executed.size,
+                          order.data._name))
+
+
+# 实例化 cerebro
+cerebro = bt.Cerebro()
+# 读取行情数据
+daily_price = pd.read_pickle("data/fdata.pkl")
+daily_price['volume'] = 0
+daily_price['openinterest'] = 0
+# 按基金代码，依次循环传入数据
+for fund in daily_price['fcode'].unique():
+    # 日期对齐
+    data = pd.DataFrame(index=daily_price.index.unique().sort_values())  # 获取回测区间内所有交易日
+    df = daily_price.query(f"fcode=='{fund}'")[
+        ['open', 'high', 'low', 'close', 'volume', 'openinterest']]
+    data_ = pd.merge(data, df, left_index=True, right_index=True, how='left')
+    # 缺失值处理：日期对齐时会使得有些交易日的数据为空，所以需要对缺失数据进行填充
+    data_.loc[:, ['volume', 'openinterest']] = data_.loc[:,
+                                                         ['volume', 'openinterest']].fillna(0)
+    data_.loc[:, ['open', 'high', 'low', 'close']] = data_.loc[:,
+                                                               ['open', 'high', 'low', 'close']].fillna(method='pad')
+    data_.loc[:, ['open', 'high', 'low', 'close']] = data_.loc[:,
+                                                               ['open', 'high', 'low', 'close']].fillna(0)
+    # 导入数据
+    datafeed = bt.feeds.PandasData(dataname=data_,
+                                   fromdate=datetime.datetime(2006, 1, 2),
+                                   todate=datetime.datetime(2022, 6, 22))
+    cerebro.adddata(datafeed, name=fund)  # 通过 name 实现数据集与基金的一一对应
+    print(f"{fund} Done !")
+# 初始资金 100,000,000
+cerebro.broker.setcash(100000000.0)
+# strcash = cerebro.Broker.getvalue()
+
+
+# 佣金，双边各 0.0001
+cerebro.broker.setcommission(commission=0.0001)
+# 滑点：双边各 0.0001
+# cerebro.broker.set_slippage_perc(perc=0.0001)
+
+cerebro.addstrategy(SharpeStrategy)
+
+cerebro.addanalyzer(bt.analyzers.TimeReturn, _name='returns')
+result = cerebro.run()
+# fnlcash = cerebro.Broker.getvalue()
+# print('\t起始资金 Starting Portfolio Value: %.2f' % strcash)
+# print('\t资产总值 Final Portfolio Value: %.2f' % fnlcash)
+returns = result[0].analyzers.returns
+ret = pd.Series(returns.get_analysis())
+qs.reports.html(returns=ret,
+                title='Sharpe Strategy Tearsheet',
+                output='EquityFundAnalysis\reports',
+                download_filename='sharpeStrategy.html')

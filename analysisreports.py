@@ -42,7 +42,7 @@ sh000905 = ak.stock_zh_index_daily_tx(symbol="sh000905")
 index300 = formatIndex(sh000300)
 index500 = formatIndex(sh000905)
 
-for index in range(1768, 1769):
+for index in fundlist.index:
     f = fundlist.loc[index, 'code']
     fund_hisinfo_df = utils.GetFundInfoByAkshare(fund=f,
                                                  indicator='累计净值走势')
@@ -66,3 +66,5 @@ for index in range(1768, 1769):
                     download_filename=fundlist.loc[index,
                                                    'abbreviation'] + '分析报告.html',
                     benchmark_title='沪深300*50%+中证500*50%')
+
+    print(fundlist.loc[index, 'code'], fundlist.loc[index, 'abbreviation'], '')
