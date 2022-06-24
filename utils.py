@@ -186,3 +186,42 @@ def fvolatility_prefer(data, year, pnum=20):
                       inplace=True)
 
     return fvol_.head(pnum)
+
+# =============================================================================
+# 计算基金列表中给定年度的calmar比率排名前n的基金列表及对应calmar比率
+# =============================================================================
+def fcalmar_prefer(data, year, pnum=20):
+    fdata = data
+    year = year
+    pnum = pnum
+
+    fdataY = fdata.filter(like=year, axis=0)
+    flistY = fdataY['fcode'].unique().tolist()
+
+    calmar = list()
+
+    for fcode in flistY:
+        fdata_ = fdataY[fdataY['fcode'] == fcode]
+        fcumvalue_ = fdata_['close']
+        returns = pd.Series(fcumvalue_.pct_change().dropna())
+        if len(returns) >= 200:
+            calmar_ = empyrical.calmar_ratio(returns)
+        else:
+            calmar_ = np.nan
+        calmar.append(calmar_)
+    fcalmar = pd.DataFrame(data = calmar,
+                           index = flistY).dropna()
+    fcalmar.columns = ['calmar']
+    avg = fcalmar.mean()
+    std = fcalmar.std()
+    fcalmar_ = fcalmar.copy()
+    fcalmar_['Z'] = fcalmar_['calmar'].apply(lambda x: (x-avg)/std)
+    fcalmar_.sort_values(by='Z',
+                         ascending=True,
+                         inplace=True)
+
+    return fcalmar_.head(pnum)
+
+# =============================================================================
+# 计算基金列表中给定年度的sortino比率排名前n的基金列表及对应sortino比率
+# =============================================================================
