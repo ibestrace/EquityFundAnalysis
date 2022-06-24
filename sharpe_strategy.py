@@ -7,7 +7,9 @@ Created on Thu Jun 23 14:55:42 2022
 import pandas as pd
 import backtrader as bt
 import quantstats as qs
+import akshare as ak
 import datetime
+import utils
 
 
 class SharpeStrategy(bt.Strategy):
@@ -121,14 +123,13 @@ for fund in daily_price['fcode'].unique():
                                                                ['open', 'high', 'low', 'close']].fillna(0)
     # 导入数据
     datafeed = bt.feeds.PandasData(dataname=data_,
-                                   fromdate=datetime.datetime(2006, 1, 2),
+                                   fromdate=datetime.datetime(2006, 12, 22),
                                    todate=datetime.datetime(2022, 6, 22))
     cerebro.adddata(datafeed, name=fund)  # 通过 name 实现数据集与基金的一一对应
     print(f"{fund} Done !")
 # 初始资金 100,000,000
 cerebro.broker.setcash(100000000.0)
 # strcash = cerebro.Broker.getvalue()
-
 
 # 佣金，双边各 0.0001
 cerebro.broker.setcommission(commission=0.0001)
@@ -144,7 +145,31 @@ result = cerebro.run()
 # print('\t资产总值 Final Portfolio Value: %.2f' % fnlcash)
 returns = result[0].analyzers.returns
 ret = pd.Series(returns.get_analysis())
+ret.to_pickle('data/sharpe_strategy_returns.pkl')
+
+# 构建业绩基准
+# 业绩基准=沪深300*50%+中证500*50%
+# 沪深300指数和中证500指数的数据来源为腾讯财经，目标地址：http://gu.qq.com/sh000919/zs
+# 通过stock_zh_index_spot_df = ak.stock_zh_index_spot()
+# 获取沪深300的指数代码为sh000300,中证500的指数代码为sh000905
+sh000300 = ak.stock_zh_index_daily_tx(symbol="sh000300")
+sh000905 = ak.stock_zh_index_daily_tx(symbol="sh000905")
+# 格式化数据
+index300 = utils.formatIndex(sh000300)
+index500 = utils.formatIndex(sh000905)
+
+st_date = ret.index[0]
+ed_date = ret.index[-1]
+
+inx300 = index300.loc[st_date:ed_date, :]
+inx500 = index500.loc[st_date:ed_date, :]
+
+benchmark = inx300/inx300.iloc[0, 0] * 0.5 + inx500/inx500.iloc[0, 0] * 0.5
+ben = benchmark.pct_change().dropna()
+
 qs.reports.html(returns=ret,
+                benchmark=ben,
                 title='Sharpe Strategy Tearsheet',
                 output='EquityFundAnalysis\reports',
-                download_filename='sharpeStrategy.html')
+                download_filename='sharpeStrategyReport.html',
+                benchmark_title='沪深300*50%+中证500*50%')

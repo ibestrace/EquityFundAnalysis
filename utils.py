@@ -55,6 +55,12 @@ def formatfData(fdata):
     data.set_index('date', inplace=True)
     return data
 
+def formatIndex(inxdata):
+    inxdata = inxdata.copy()
+    inxdata = inxdata.loc[:, ['date', 'close']]
+    inxdata['date'] = pd.to_datetime(inxdata['date'])
+    inxdata.set_index('date', inplace=True)
+    return inxdata
 
 # =============================================================================
 # 计算调仓日期列表，调仓日期为每月最后一个交易日
