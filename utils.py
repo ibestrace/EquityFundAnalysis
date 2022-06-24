@@ -120,8 +120,6 @@ def lastTransferDatesInYear(trade_dates):
 # =============================================================================
 # 计算基金列表中给定年度的夏普比率排名前n的基金列表及对应夏普比
 # =============================================================================
-
-
 def fsharpe_top(data, year, top=20):
     fdata = data
     year = year
@@ -153,3 +151,38 @@ def fsharpe_top(data, year, top=20):
                          inplace=True)
 
     return _fsharpe.head(top)
+
+# =============================================================================
+# 计算基金列表中给定年度的波动率排名前n的基金列表及对应波动率，波动率以低为优秀
+# =============================================================================
+def fvolatility_prefer(data, year, pnum=20):
+    fdata = data
+    year = year
+    pnum = pnum
+
+    fdataY = fdata.filter(like=year, axis=0)
+    flistY = fdataY['fcode'].unique().tolist()
+
+    vol = list()
+
+    for fcode in flistY:
+        fdata_ = fdataY[fdataY['fcode'] == fcode]
+        fcumvalue_ = fdata_['close']
+        returns = pd.Series(fcumvalue_.pct_change().dropna())
+        if len(returns) >= 200:
+            _vol = empyrical.annual_volatility(returns)
+        else:
+            _vol = np.nan
+        vol.append(_vol)
+    fvol = pd.DataFrame(data = vol,
+                        index = flistY).dropna()
+    fvol.columns = ['vol']
+    avg = fvol.mean()
+    std = fvol.std()
+    fvol_ = fvol.copy()
+    fvol_['Z'] = fvol_['vol'].apply(lambda x: (x-avg)/std)
+    fvol_.sort_values(by='Z',
+                      ascending=True,
+                      inplace=True)
+
+    return fvol_.head(pnum)
