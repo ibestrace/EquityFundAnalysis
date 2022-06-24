@@ -256,3 +256,29 @@ def fsortino_prefer(data, year, pnum=20):
                         inplace=True)
 
     return fsortino_.head(pnum)
+
+# =============================================================================
+# benchmark = 沪深300*50% + 中证500*50%
+# =============================================================================
+
+def benchmark(st_date,ed_date):
+    # 构建业绩基准
+    # 业绩基准=沪深300*50%+中证500*50%
+    # 沪深300指数和中证500指数的数据来源为腾讯财经，目标地址：http://gu.qq.com/sh000919/zs
+    # 通过stock_zh_index_spot_df = ak.stock_zh_index_spot()
+    # 获取沪深300的指数代码为sh000300,中证500的指数代码为sh000905
+    st_date = st_date
+    ed_date = ed_date
+
+    sh000300 = ak.stock_zh_index_daily_tx(symbol="sh000300")
+    sh000905 = ak.stock_zh_index_daily_tx(symbol="sh000905")
+    # 格式化数据
+    index300 = formatIndex(sh000300)
+    index500 = formatIndex(sh000905)
+
+    inx300 = index300.loc[st_date:ed_date, :]
+    inx500 = index500.loc[st_date:ed_date, :]
+
+    benchmark = inx300 / inx300.iloc[0, 0] * 0.5 + inx500 / inx500.iloc[0, 0] * 0.5
+    ben = benchmark.pct_change().dropna()
+    return ben
