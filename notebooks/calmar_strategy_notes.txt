@@ -1,0 +1,2484 @@
+C:\Users\ThinkPad\.conda\envs\qtconda\python.exe "C:\Program Files\JetBrains\PyCharm 2020.3.1\plugins\python\helpers\pydev\pydevconsole.py" --mode=client --port=62448
+import sys; print('Python %s on %s' % (sys.version, sys.platform))
+sys.path.extend(['E:\\Project\\portfolioanalysis\\EquityFundAnalysis', 'E:/Project/portfolioanalysis/EquityFundAnalysis'])
+Python 3.8.13 (default, Mar 28 2022, 06:59:08) [MSC v.1916 64 bit (AMD64)]
+Type 'copyright', 'credits' or 'license' for more information
+IPython 8.3.0 -- An enhanced Interactive Python. Type '?' for help.
+PyDev console: using IPython 8.3.0
+Python 3.8.13 (default, Mar 28 2022, 06:59:08) [MSC v.1916 64 bit (AMD64)] on win32
+runfile('E:/Project/portfolioanalysis/EquityFundAnalysis/calmar_strategy.py', wdir='E:/Project/portfolioanalysis/EquityFundAnalysis')
+------------------------开始计算调仓列表------------------------
+2006 Done!
+2007 Done!
+2008 Done!
+2009 Done!
+2010 Done!
+2011 Done!
+2012 Done!
+2013 Done!
+2014 Done!
+2015 Done!
+2016 Done!
+2017 Done!
+2018 Done!
+2019 Done!
+2020 Done!
+2021 Done!
+--------------------调仓列表已完成--------------------
+000667 Done !
+000672 Done !
+519062 Done !
+260112 Done !
+001791 Done !
+009098 Done !
+005233 Done !
+011698 Done !
+008269 Done !
+000893 Done !
+003298 Done !
+530006 Done !
+000991 Done !
+001579 Done !
+011169 Done !
+240004 Done !
+008091 Done !
+011438 Done !
+000979 Done !
+001473 Done !
+010338 Done !
+010728 Done !
+011855 Done !
+257040 Done !
+483003 Done !
+090013 Done !
+257010 Done !
+009263 Done !
+008372 Done !
+070027 Done !
+006138 Done !
+090007 Done !
+009951 Done !
+080001 Done !
+009242 Done !
+481008 Done !
+005005 Done !
+011932 Done !
+005445 Done !
+000251 Done !
+008077 Done !
+240005 Done !
+001651 Done !
+009026 Done !
+001043 Done !
+011174 Done !
+001583 Done !
+080005 Done !
+005126 Done !
+000916 Done !
+005396 Done !
+519185 Done !
+008134 Done !
+001577 Done !
+005095 Done !
+160613 Done !
+070003 Done !
+010744 Done !
+005094 Done !
+202009 Done !
+011570 Done !
+001825 Done !
+161611 Done !
+003634 Done !
+160106 Done !
+008099 Done !
+004936 Done !
+009394 Done !
+530003 Done !
+710001 Done !
+006201 Done !
+165508 Done !
+010746 Done !
+008840 Done !
+006551 Done !
+160105 Done !
+005164 Done !
+570005 Done !
+162607 Done !
+010423 Done !
+161810 Done !
+011856 Done !
+006652 Done !
+270008 Done !
+005082 Done !
+000577 Done !
+001208 Done !
+009880 Done !
+012001 Done !
+320020 Done !
+240008 Done !
+006775 Done !
+012093 Done !
+257050 Done !
+620006 Done !
+010381 Done !
+009789 Done !
+519193 Done !
+009234 Done !
+519918 Done !
+001178 Done !
+002334 Done !
+008891 Done !
+006195 Done !
+011626 Done !
+005937 Done !
+009199 Done !
+257030 Done !
+519702 Done !
+008128 Done !
+009476 Done !
+011203 Done !
+011717 Done !
+700001 Done !
+010273 Done !
+530011 Done !
+530019 Done !
+000803 Done !
+011820 Done !
+481013 Done !
+000411 Done !
+008283 Done !
+450009 Done !
+001719 Done !
+011333 Done !
+005960 Done !
+005106 Done !
+001162 Done !
+121008 Done !
+004716 Done !
+007012 Done !
+006863 Done !
+519181 Done !
+010761 Done !
+001882 Done !
+166005 Done !
+000418 Done !
+011179 Done !
+688888 Done !
+004250 Done !
+011189 Done !
+012545 Done !
+006022 Done !
+001781 Done !
+009106 Done !
+070019 Done !
+519002 Done !
+009102 Done !
+001520 Done !
+007016 Done !
+270006 Done !
+001044 Done !
+450002 Done !
+005161 Done !
+002174 Done !
+010826 Done !
+288001 Done !
+010929 Done !
+011518 Done !
+400011 Done !
+519019 Done !
+006527 Done !
+006167 Done !
+730002 Done !
+011331 Done !
+004891 Done !
+012221 Done !
+673090 Done !
+450011 Done !
+000612 Done !
+450004 Done !
+450003 Done !
+005505 Done !
+009327 Done !
+519915 Done !
+000778 Done !
+004098 Done !
+005739 Done !
+000172 Done !
+011468 Done !
+011498 Done !
+100026 Done !
+501032 Done !
+011923 Done !
+320001 Done !
+160910 Done !
+070017 Done !
+000057 Done !
+959991 Done !
+002305 Done !
+001382 Done !
+850088 Done !
+010963 Done !
+519727 Done !
+010738 Done !
+011471 Done !
+020018 Done !
+000471 Done !
+005259 Done !
+000646 Done !
+090003 Done !
+121005 Done !
+011635 Done !
+005053 Done !
+001917 Done !
+003232 Done !
+008135 Done !
+519712 Done !
+008871 Done !
+008271 Done !
+006259 Done !
+005001 Done !
+009875 Done !
+010457 Done !
+001733 Done !
+001883 Done !
+166009 Done !
+090019 Done !
+000756 Done !
+010070 Done !
+004076 Done !
+005267 Done !
+008328 Done !
+270025 Done !
+000628 Done !
+003751 Done !
+006243 Done !
+003416 Done !
+009069 Done !
+002871 Done !
+010264 Done !
+005264 Done !
+660003 Done !
+005760 Done !
+008736 Done !
+004359 Done !
+004730 Done !
+006942 Done !
+008768 Done !
+100056 Done !
+011212 Done !
+005041 Done !
+010434 Done !
+005635 Done !
+090011 Done !
+010709 Done !
+002593 Done !
+519033 Done !
+870005 Done !
+008978 Done !
+011858 Done !
+519995 Done !
+165512 Done !
+090018 Done !
+012344 Done !
+006882 Done !
+011405 Done !
+010271 Done !
+160610 Done !
+011251 Done !
+005662 Done !
+550003 Done !
+001637 Done !
+460009 Done !
+004350 Done !
+001256 Done !
+008116 Done !
+008531 Done !
+160603 Done !
+008491 Done !
+005502 Done !
+011384 Done !
+920002 Done !
+000457 Done !
+007674 Done !
+000867 Done !
+011817 Done !
+006302 Done !
+540006 Done !
+011229 Done !
+002952 Done !
+160916 Done !
+012153 Done !
+012123 Done !
+010624 Done !
+004871 Done !
+501028 Done !
+010551 Done !
+008515 Done !
+009200 Done !
+010178 Done !
+004881 Done !
+007592 Done !
+011647 Done !
+011152 Done !
+005632 Done !
+007254 Done !
+007777 Done !
+002340 Done !
+001144 Done !
+000925 Done !
+519778 Done !
+050201 Done !
+166001 Done !
+001881 Done !
+007835 Done !
+006179 Done !
+001884 Done !
+166007 Done !
+010947 Done !
+007470 Done !
+007066 Done !
+240001 Done !
+910007 Done !
+008955 Done !
+011866 Done !
+011722 Done !
+010878 Done !
+090015 Done !
+001974 Done !
+003190 Done !
+377010 Done !
+011917 Done !
+000589 Done !
+007257 Done !
+009240 Done !
+011645 Done !
+090004 Done !
+006879 Done !
+090016 Done !
+519698 Done !
+202212 Done !
+004959 Done !
+006976 Done !
+519013 Done !
+008318 Done !
+009800 Done !
+040035 Done !
+481004 Done !
+460007 Done !
+420005 Done !
+040011 Done !
+000127 Done !
+011099 Done !
+006921 Done !
+005399 Done !
+010790 Done !
+320015 Done !
+217001 Done !
+161609 Done !
+470028 Done !
+008819 Done !
+006429 Done !
+008245 Done !
+660010 Done !
+519097 Done !
+010347 Done !
+010155 Done !
+163822 Done !
+009618 Done !
+011248 Done !
+000066 Done !
+671010 Done !
+011111 Done !
+001088 Done !
+004351 Done !
+008308 Done !
+580002 Done !
+001528 Done !
+166801 Done !
+011733 Done !
+011128 Done !
+001050 Done !
+006084 Done !
+012255 Done !
+010181 Done !
+009188 Done !
+010072 Done !
+000551 Done !
+006608 Done !
+009601 Done !
+320016 Done !
+001736 Done !
+010678 Done !
+008234 Done !
+011649 Done !
+008251 Done !
+010549 Done !
+011220 Done !
+000971 Done !
+000082 Done !
+011164 Done !
+180010 Done !
+007381 Done !
+080007 Done !
+009630 Done !
+008712 Done !
+000591 Done !
+009931 Done !
+270041 Done !
+400007 Done !
+008186 Done !
+005235 Done !
+070032 Done !
+000729 Done !
+007177 Done !
+630011 Done !
+010663 Done !
+320011 Done !
+010998 Done !
+163804 Done !
+590002 Done !
+004951 Done !
+110015 Done !
+010410 Done !
+006785 Done !
+011837 Done !
+010469 Done !
+217013 Done !
+006202 Done !
+010723 Done !
+006160 Done !
+008131 Done !
+660004 Done !
+160607 Done !
+001955 Done !
+320003 Done !
+519039 Done !
+006604 Done !
+010104 Done !
+007287 Done !
+161706 Done !
+000688 Done !
+110009 Done !
+005457 Done !
+007126 Done !
+530005 Done !
+006511 Done !
+400003 Done !
+008901 Done !
+008261 Done !
+310328 Done !
+010409 Done !
+009899 Done !
+007825 Done !
+001195 Done !
+630002 Done !
+952004 Done !
+000326 Done !
+009126 Done !
+007460 Done !
+320005 Done !
+009128 Done !
+010488 Done !
+202019 Done !
+008313 Done !
+011708 Done !
+007146 Done !
+161038 Done !
+481017 Done !
+000432 Done !
+660001 Done !
+340006 Done !
+519008 Done !
+000746 Done !
+004403 Done !
+164205 Done !
+010429 Done !
+001186 Done !
+200010 Done !
+009341 Done !
+660006 Done !
+610007 Done !
+000978 Done !
+010617 Done !
+009913 Done !
+009507 Done !
+001054 Done !
+160611 Done !
+000061 Done !
+007449 Done !
+870009 Done !
+001416 Done !
+000120 Done !
+005498 Done !
+580003 Done !
+000056 Done !
+010874 Done !
+040008 Done !
+004683 Done !
+005090 Done !
+011201 Done !
+012184 Done !
+005848 Done !
+020005 Done !
+010385 Done !
+290006 Done !
+005189 Done !
+540007 Done !
+080015 Done !
+040016 Done !
+900090 Done !
+010389 Done !
+004868 Done !
+519965 Done !
+005521 Done !
+860055 Done !
+009062 Done !
+011585 Done !
+011238 Done !
+011275 Done !
+550008 Done !
+519011 Done !
+519069 Done !
+006529 Done !
+519150 Done !
+010815 Done !
+519714 Done !
+040005 Done !
+010885 Done !
+519015 Done !
+540002 Done !
+360016 Done !
+001118 Done !
+011149 Done !
+510081 Done !
+011845 Done !
+006522 Done !
+040020 Done !
+006157 Done !
+161005 Done !
+050014 Done !
+001725 Done !
+001714 Done !
+011826 Done !
+006106 Done !
+163409 Done !
+009564 Done !
+010703 Done !
+000308 Done !
+001692 Done !
+519099 Done !
+519035 Done !
+008311 Done !
+005004 Done !
+001236 Done !
+260116 Done !
+519017 Done !
+010341 Done !
+011673 Done !
+006557 Done !
+010801 Done !
+550015 Done !
+007518 Done !
+009954 Done !
+001349 Done !
+009402 Done !
+010054 Done !
+288002 Done !
+006992 Done !
+005638 Done !
+360005 Done !
+011843 Done !
+008373 Done !
+002210 Done !
+590001 Done !
+240022 Done !
+200015 Done !
+001878 Done !
+206002 Done !
+007308 Done !
+860036 Done !
+001490 Done !
+009550 Done !
+011578 Done !
+009312 Done !
+006478 Done !
+012150 Done !
+007056 Done !
+009878 Done !
+376510 Done !
+004434 Done !
+010148 Done !
+011418 Done !
+008037 Done !
+550002 Done !
+009992 Done !
+006564 Done !
+202001 Done !
+006223 Done !
+010536 Done !
+005409 Done !
+501203 Done !
+519993 Done !
+007533 Done !
+001291 Done !
+180013 Done !
+009658 Done !
+006780 Done !
+007831 Done !
+001008 Done !
+009998 Done !
+008962 Done !
+370027 Done !
+008602 Done !
+010027 Done !
+006911 Done !
+410009 Done !
+008424 Done !
+008178 Done !
+121003 Done !
+000532 Done !
+000011 Done !
+010049 Done !
+006369 Done !
+202002 Done !
+420003 Done !
+010690 Done !
+000199 Done !
+011013 Done !
+010454 Done !
+008370 Done !
+012196 Done !
+007968 Done !
+011181 Done !
+206012 Done !
+004183 Done !
+010196 Done !
+008274 Done !
+010088 Done !
+163110 Done !
+519678 Done !
+007903 Done !
+009138 Done !
+007063 Done !
+000173 Done !
+009968 Done !
+001980 Done !
+160505 Done !
+009636 Done !
+005970 Done !
+660012 Done !
+010108 Done !
+010914 Done !
+900052 Done !
+009804 Done !
+011435 Done !
+010137 Done !
+001718 Done !
+011153 Done !
+519688 Done !
+260117 Done !
+008618 Done !
+005847 Done !
+011340 Done !
+011097 Done !
+217009 Done !
+519001 Done !
+110013 Done !
+020009 Done !
+010787 Done !
+100022 Done !
+008657 Done !
+008132 Done !
+004505 Done !
+007548 Done !
+011500 Done !
+006926 Done !
+163302 Done !
+519736 Done !
+161818 Done !
+008303 Done !
+001463 Done !
+217010 Done !
+011740 Done !
+360001 Done !
+005405 Done !
+010552 Done !
+008681 Done !
+011167 Done !
+160311 Done !
+000547 Done !
+009379 Done !
+001268 Done !
+580001 Done !
+519704 Done !
+005840 Done !
+007613 Done !
+020015 Done !
+519975 Done !
+020010 Done !
+270007 Done !
+519025 Done !
+001421 Done !
+008415 Done !
+161610 Done !
+009189 Done !
+006424 Done !
+320022 Done !
+008347 Done !
+163415 Done !
+900009 Done !
+010483 Done !
+163412 Done !
+010987 Done !
+009539 Done !
+009474 Done !
+005250 Done !
+010680 Done !
+920003 Done !
+000513 Done !
+000800 Done !
+162203 Done !
+090009 Done !
+011685 Done !
+540009 Done !
+110022 Done !
+005474 Done !
+008185 Done !
+162207 Done !
+010331 Done !
+005729 Done !
+163406 Done !
+008138 Done !
+011285 Done !
+008734 Done !
+006573 Done !
+008404 Done !
+010795 Done !
+008983 Done !
+162006 Done !
+161601 Done !
+011069 Done !
+011800 Done !
+009707 Done !
+005104 Done !
+162202 Done !
+001396 Done !
+206007 Done !
+008273 Done !
+009989 Done !
+008166 Done !
+000761 Done !
+010413 Done !
+001223 Done !
+002289 Done !
+260110 Done !
+009950 Done !
+202007 Done !
+010447 Done !
+011410 Done !
+360006 Done !
+006193 Done !
+160605 Done !
+165313 Done !
+202003 Done !
+010602 Done !
+570001 Done !
+001070 Done !
+010403 Done !
+011138 Done !
+160918 Done !
+012124 Done !
+011140 Done !
+001900 Done !
+001163 Done !
+009190 Done !
+000996 Done !
+009086 Done !
+206009 Done !
+570008 Done !
+011669 Done !
+010936 Done !
+590005 Done !
+011155 Done !
+005630 Done !
+011651 Done !
+008949 Done !
+011177 Done !
+000083 Done !
+010996 Done !
+007388 Done !
+011807 Done !
+481001 Done !
+217005 Done !
+260101 Done !
+310308 Done !
+001036 Done !
+007354 Done !
+260104 Done !
+001277 Done !
+001076 Done !
+001705 Done !
+001849 Done !
+009513 Done !
+010303 Done !
+202005 Done !
+151001 Done !
+010330 Done !
+010994 Done !
+008065 Done !
+002011 Done !
+008314 Done !
+010350 Done !
+501051 Done !
+004686 Done !
+007133 Done !
+000020 Done !
+011886 Done !
+001403 Done !
+006818 Done !
+001188 Done !
+002229 Done !
+001541 Done !
+162209 Done !
+010375 Done !
+660005 Done !
+010314 Done !
+690005 Done !
+550001 Done !
+010966 Done !
+003822 Done !
+006904 Done !
+377150 Done !
+001672 Done !
+009619 Done !
+162605 Done !
+008884 Done !
+260108 Done !
+005241 Done !
+011173 Done !
+260109 Done !
+000263 Done !
+010699 Done !
+519983 Done !
+150968 Done !
+006025 Done !
+008174 Done !
+001496 Done !
+011142 Done !
+167702 Done !
+010662 Done !
+006533 Done !
+162204 Done !
+010558 Done !
+006274 Done !
+378010 Done !
+000017 Done !
+009043 Done !
+519115 Done !
+001726 Done !
+000854 Done !
+210004 Done !
+011431 Done !
+233007 Done !
+011134 Done !
+009368 Done !
+001319 Done !
+011284 Done !
+010041 Done !
+008290 Done !
+070013 Done !
+011765 Done !
+233015 Done !
+010163 Done !
+001158 Done !
+007880 Done !
+010143 Done !
+005707 Done !
+112002 Done !
+163818 Done !
+460005 Done !
+008276 Done !
+008793 Done !
+005680 Done !
+001126 Done !
+001645 Done !
+010646 Done !
+009874 Done !
+009362 Done !
+006615 Done !
+000866 Done !
+000974 Done !
+012086 Done !
+010714 Done !
+009140 Done !
+450007 Done !
+006644 Done !
+162208 Done !
+690007 Done !
+006720 Done !
+006430 Done !
+000294 Done !
+006801 Done !
+011429 Done !
+008297 Done !
+010584 Done !
+010755 Done !
+660015 Done !
+010333 Done !
+001171 Done !
+000955 Done !
+009398 Done !
+006769 Done !
+009049 Done !
+671030 Done !
+006603 Done !
+011078 Done !
+166107 Done !
+005825 Done !
+580008 Done !
+010421 Done !
+010161 Done !
+002562 Done !
+011389 Done !
+005904 Done !
+010420 Done !
+110029 Done !
+006648 Done !
+410003 Done !
+007439 Done !
+690003 Done !
+202011 Done !
+410001 Done !
+010452 Done !
+007110 Done !
+001409 Done !
+007082 Done !
+006346 Done !
+010220 Done !
+000006 Done !
+519692 Done !
+001047 Done !
+010371 Done !
+001267 Done !
+008208 Done !
+519694 Done !
+011058 Done !
+008934 Done !
+011160 Done !
+010198 Done !
+008294 Done !
+009029 Done !
+008958 Done !
+009661 Done !
+009893 Done !
+501206 Done !
+010692 Done !
+210005 Done !
+011288 Done !
+373020 Done !
+006419 Done !
+900077 Done !
+519068 Done !
+009548 Done !
+050004 Done !
+003069 Done !
+000339 Done !
+000549 Done !
+002980 Done !
+005669 Done !
+160133 Done !
+162212 Done !
+005000 Done !
+001605 Done !
+010033 Done !
+001193 Done !
+000021 Done !
+010425 Done !
+009869 Done !
+010460 Done !
+007493 Done !
+007678 Done !
+009909 Done !
+900099 Done !
+006868 Done !
+910017 Done !
+008371 Done !
+010415 Done !
+010305 Done !
+010151 Done !
+006230 Done !
+166109 Done !
+006967 Done !
+003624 Done !
+001028 Done !
+009861 Done !
+166006 Done !
+001886 Done !
+009076 Done !
+110002 Done !
+005827 Done !
+001097 Done !
+004374 Done !
+070021 Done !
+007353 Done !
+519668 Done !
+010846 Done !
+006877 Done !
+200012 Done !
+011531 Done !
+006803 Done !
+009596 Done !
+240009 Done !
+010821 Done !
+000985 Done !
+011046 Done !
+010824 Done !
+006396 Done !
+519991 Done !
+009714 Done !
+005888 Done !
+010898 Done !
+398061 Done !
+004189 Done !
+008244 Done !
+006881 Done !
+010922 Done !
+008382 Done !
+003145 Done !
+000117 Done !
+005826 Done !
+970016 Done !
+010141 Done !
+519093 Done !
+006568 Done !
+004148 Done !
+010115 Done !
+008555 Done !
+010615 Done !
+070001 Done !
+162107 Done !
+005268 Done !
+001614 Done !
+163411 Done !
+519987 Done !
+010120 Done !
+000409 Done !
+005347 Done !
+006348 Done !
+010284 Done !
+470009 Done !
+001707 Done !
+002598 Done !
+009840 Done !
+008704 Done !
+162102 Done !
+010659 Done !
+011136 Done !
+900003 Done !
+270021 Done !
+200008 Done !
+007854 Done !
+009353 Done !
+004606 Done !
+010892 Done !
+004997 Done !
+160415 Done !
+009570 Done !
+010335 Done !
+007733 Done !
+008507 Done !
+000601 Done !
+240020 Done !
+010289 Done !
+010313 Done !
+519056 Done !
+481006 Done !
+011216 Done !
+011121 Done !
+001166 Done !
+010116 Done !
+004926 Done !
+610005 Done !
+008528 Done !
+010405 Done !
+010301 Done !
+160919 Done !
+003567 Done !
+160805 Done !
+070011 Done !
+165516 Done !
+011300 Done !
+008177 Done !
+519018 Done !
+007590 Done !
+009557 Done !
+008961 Done !
+009414 Done !
+560002 Done !
+005612 Done !
+009330 Done !
+011908 Done !
+010286 Done !
+460002 Done !
+010062 Done !
+010608 Done !
+161606 Done !
+010495 Done !
+009872 Done !
+011506 Done !
+009929 Done !
+006314 Done !
+011503 Done !
+011603 Done !
+010570 Done !
+519997 Done !
+011479 Done !
+630001 Done !
+008537 Done !
+162703 Done !
+460001 Done !
+100039 Done !
+000524 Done !
+002595 Done !
+010701 Done !
+010112 Done !
+009988 Done !
+519673 Done !
+008854 Done !
+010706 Done !
+006336 Done !
+010783 Done !
+011282 Done !
+004292 Done !
+540008 Done !
+009704 Done !
+000586 Done !
+560003 Done !
+470098 Done !
+009885 Done !
+011588 Done !
+005352 Done !
+257020 Done !
+011401 Done !
+007893 Done !
+570006 Done !
+005914 Done !
+005335 Done !
+110005 Done !
+001717 Done !
+009999 Done !
+011851 Done !
+010020 Done !
+160512 Done !
+011304 Done !
+007468 Done !
+001475 Done !
+009141 Done !
+010697 Done !
+000831 Done !
+000001 Done !
+000697 Done !
+005967 Done !
+470008 Done !
+004112 Done !
+008811 Done !
+217012 Done !
+001558 Done !
+860052 Done !
+213008 Done !
+000965 Done !
+009360 Done !
+005660 Done !
+050008 Done !
+008445 Done !
+004995 Done !
+007306 Done !
+003745 Done !
+010622 Done !
+005708 Done !
+009055 Done !
+519089 Done !
+002861 Done !
+001521 Done !
+009376 Done !
+009914 Done !
+009014 Done !
+010361 Done !
+011122 Done !
+005875 Done !
+011911 Done !
+008860 Done !
+006864 Done !
+010296 Done !
+010109 Done !
+009852 Done !
+010808 Done !
+001104 Done !
+360012 Done !
+011021 Done !
+009891 Done !
+260111 Done !
+007261 Done !
+009646 Done !
+010792 Done !
+011186 Done !
+010114 Done !
+006408 Done !
+006538 Done !
+007484 Done !
+007523 Done !
+006072 Done !
+000884 Done !
+000592 Done !
+010298 Done !
+011448 Done !
+006266 Done !
+005310 Done !
+011598 Done !
+240011 Done !
+009960 Done !
+006718 Done !
+570007 Done !
+006058 Done !
+008980 Done !
+000309 Done !
+010094 Done !
+260115 Done !
+007853 Done !
+501071 Done !
+020026 Done !
+001482 Done !
+005609 Done !
+004784 Done !
+005351 Done !
+009023 Done !
+008480 Done !
+001703 Done !
+008919 Done !
+011144 Done !
+009750 Done !
+009085 Done !
+910022 Done !
+007163 Done !
+010756 Done !
+010132 Done !
+009892 Done !
+519095 Done !
+100020 Done !
+000940 Done !
+010779 Done !
+001476 Done !
+007343 Done !
+012243 Done !
+398001 Done !
+006435 Done !
+008518 Done !
+007119 Done !
+233006 Done !
+010717 Done !
+229002 Done !
+011460 Done !
+008260 Done !
+010307 Done !
+006692 Done !
+010299 Done !
+006007 Done !
+009057 Done !
+001877 Done !
+009391 Done !
+008526 Done !
+160211 Done !
+001616 Done !
+160127 Done !
+006002 Done !
+000960 Done !
+233009 Done !
+000327 Done !
+006132 Done !
+005035 Done !
+501205 Done !
+008671 Done !
+233011 Done !
+020003 Done !
+000124 Done !
+200006 Done !
+006299 Done !
+007802 Done !
+320012 Done !
+004476 Done !
+006675 Done !
+163803 Done !
+001039 Done !
+090020 Done !
+040025 Done !
+070022 Done !
+010490 Done !
+501208 Done !
+010665 Done !
+740001 Done !
+001513 Done !
+005939 Done !
+009918 Done !
+010204 Done !
+050010 Done !
+010894 Done !
+000039 Done !
+000550 Done !
+006796 Done !
+011042 Done !
+001985 Done !
+002621 Done !
+040007 Done !
+011486 Done !
+010740 Done !
+001677 Done !
+010585 Done !
+020023 Done !
+004805 Done !
+006751 Done !
+630006 Done !
+010147 Done !
+004698 Done !
+011335 Done !
+003834 Done !
+310388 Done !
+270028 Done !
+163503 Done !
+007713 Done !
+012051 Done !
+310358 Done !
+010322 Done !
+398041 Done !
+001048 Done !
+010293 Done !
+010003 Done !
+010554 Done !
+011399 Done !
+006233 Done !
+002708 Done !
+006366 Done !
+007047 Done !
+009847 Done !
+000354 Done !
+001975 Done !
+007277 Done !
+240010 Done !
+008988 Done !
+530001 Done !
+010437 Done !
+008277 Done !
+400032 Done !
+009664 Done !
+009640 Done !
+008264 Done !
+011457 Done !
+519087 Done !
+004352 Done !
+010557 Done !
+006122 Done !
+005075 Done !
+630010 Done !
+011246 Done !
+377240 Done !
+003984 Done !
+008075 Done !
+007137 Done !
+690004 Done !
+001628 Done !
+000594 Done !
+006270 Done !
+010345 Done !
+011196 Done !
+006136 Done !
+011458 Done !
+005449 Done !
+010694 Done !
+007113 Done !
+001685 Done !
+009958 Done !
+001626 Done !
+006813 Done !
+011260 Done !
+008286 Done !
+005381 Done !
+007685 Done !
+009223 Done !
+180031 Done !
+009805 Done !
+006128 Done !
+007490 Done !
+360010 Done !
+375010 Done !
+519021 Done !
+004075 Done !
+270005 Done !
+004812 Done !
+011188 Done !
+009511 Done !
+010912 Done !
+011369 Done !
+006890 Done !
+010944 Done !
+011488 Done !
+011271 Done !
+006397 Done !
+519979 Done !
+009776 Done !
+001811 Done !
+011077 Done !
+050026 Done !
+005598 Done !
+010166 Done !
+001410 Done !
+006364 Done !
+010176 Done !
+007895 Done !
+161616 Done !
+009318 Done !
+010126 Done !
+009092 Done !
+001230 Done !
+011315 Done !
+008635 Done !
+340007 Done !
+005296 Done !
+009853 Done !
+011377 Done !
+011383 Done !
+010008 Done !
+008638 Done !
+003053 Done !
+011278 Done !
+006123 Done !
+010562 Done !
+519672 Done !
+001167 Done !
+001040 Done !
+008082 Done !
+001938 Done !
+009774 Done !
+519026 Done !
+004930 Done !
+009877 Done !
+210009 Done !
+005620 Done !
+000031 Done !
+000711 Done !
+001009 Done !
+010336 Done !
+010967 Done !
+010326 Done !
+006240 Done !
+001042 Done !
+010393 Done !
+010383 Done !
+011450 Done !
+008180 Done !
+006257 Done !
+010282 Done !
+010595 Done !
+011446 Done !
+007340 Done !
+010550 Done !
+610001 Done !
+398021 Done !
+001576 Done !
+005911 Done !
+010611 Done !
+009007 Done !
+100060 Done !
+010001 Done !
+006251 Done !
+008300 Done !
+470006 Done !
+001072 Done !
+011371 Done !
+900029 Done !
+010013 Done !
+010128 Done !
+000696 Done !
+006218 Done !
+007775 Done !
+070010 Done !
+009246 Done !
+011938 Done !
+003230 Done !
+005819 Done !
+012126 Done !
+050009 Done !
+004477 Done !
+008009 Done !
+007152 Done !
+010357 Done !
+370024 Done !
+009994 Done !
+010969 Done !
+006154 Done !
+501002 Done !
+240017 Done !
+006969 Done !
+011170 Done !
+002168 Done !
+850588 Done !
+007770 Done !
+000780 Done !
+009137 Done !
+004450 Done !
+010122 Done !
+010777 Done !
+006049 Done !
+009265 Done !
+009864 Done !
+001000 Done !
+210003 Done !
+001643 Done !
+000751 Done !
+006595 Done !
+009491 Done !
+005303 Done !
+006502 Done !
+011328 Done !
+010587 Done !
+290002 Done !
+005962 Done !
+005634 Done !
+004212 Done !
+163805 Done !
+377020 Done !
+008227 Done !
+540010 Done !
+005495 Done !
+005037 Done !
+011206 Done !
+010275 Done !
+007346 Done !
+004640 Done !
+008903 Done !
+010864 Done !
+010186 Done !
+005774 Done !
+010676 Done !
+005328 Done !
+008353 Done !
+010610 Done !
+519670 Done !
+005237 Done !
+006113 Done !
+010418 Done !
+011466 Done !
+519935 Done !
+270050 Done !
+009993 Done !
+168501 Done !
+011002 Done !
+007412 Done !
+501207 Done !
+005628 Done !
+007731 Done !
+010599 Done !
+519158 Done !
+290004 Done !
+009986 Done !
+007109 Done !
+007349 Done !
+001542 Done !
+000522 Done !
+007203 Done !
+010481 Done !
+011236 Done !
+005968 Done !
+007965 Done !
+009542 Done !
+002179 Done !
+006121 Done !
+009381 Done !
+011184 Done !
+377530 Done !
+006671 Done !
+005844 Done !
+180012 Done !
+005701 Done !
+009486 Done !
+010412 Done !
+160314 Done !
+009863 Done !
+009347 Done !
+006781 Done !
+005569 Done !
+952035 Done !
+009846 Done !
+001766 Done !
+519110 Done !
+004925 Done !
+004424 Done !
+006250 Done !
+010951 Done !
+004616 Done !
+006981 Done !
+005805 Done !
+519679 Done !
+010654 Done !
+006759 Done !
+009147 Done !
+003095 Done !
+001790 Done !
+001105 Done !
+007750 Done !
+360007 Done !
+003853 Done !
+379010 Done !
+000220 Done !
+009983 Done !
+012079 Done !
+001245 Done !
+010213 Done !
+011550 Done !
+000945 Done !
+070099 Done !
+010377 Done !
+163801 Done !
+519664 Done !
+008640 Done !
+011357 Done !
+009859 Done !
+160322 Done !
+050018 Done !
+010887 Done !
+007084 Done !
+008412 Done !
+009898 Done !
+005136 Done !
+110023 Done !
+009623 Done !
+005009 Done !
+550009 Done !
+006265 Done !
+900008 Done !
+233001 Done !
+005433 Done !
+005043 Done !
+009778 Done !
+000166 Done !
+001313 Done !
+290014 Done !
+009990 Done !
+002692 Done !
+161903 Done !
+006081 Done !
+011104 Done !
+110025 Done !
+007718 Done !
+008133 Done !
+009162 Done !
+012390 Done !
+860038 Done !
+009119 Done !
+008997 Done !
+162201 Done !
+010391 Done !
+005311 Done !
+001749 Done !
+399011 Done !
+005209 Done !
+009808 Done !
+160212 Done !
+008709 Done !
+008120 Done !
+001723 Done !
+011425 Done !
+009882 Done !
+290008 Done !
+590008 Done !
+008063 Done !
+008107 Done !
+001915 Done !
+310368 Done !
+400015 Done !
+166011 Done !
+001888 Done !
+010427 Done !
+001306 Done !
+006768 Done !
+009025 Done !
+001404 Done !
+213003 Done !
+004332 Done !
+003956 Done !
+011146 Done !
+011162 Done !
+011157 Done !
+005802 Done !
+006477 Done !
+001956 Done !
+290011 Done !
+009017 Done !
+008359 Done !
+519674 Done !
+002300 Done !
+257070 Done !
+005927 Done !
+000828 Done !
+008633 Done !
+007139 Done !
+008381 Done !
+006228 Done !
+004040 Done !
+007291 Done !
+005728 Done !
+519606 Done !
+213002 Done !
+000209 Done !
+006887 Done !
+006235 Done !
+210008 Done !
+004851 Done !
+481010 Done !
+481015 Done !
+006227 Done !
+000793 Done !
+610006 Done !
+005228 Done !
+010124 Done !
+620004 Done !
+006281 Done !
+008655 Done !
+730001 Done !
+519005 Done !
+009537 Done !
+011599 Done !
+008085 Done !
+005029 Done !
+009733 Done !
+005504 Done !
+011355 Done !
+580006 Done !
+002387 Done !
+009855 Done !
+080012 Done !
+009644 Done !
+006923 Done !
+610004 Done !
+007689 Done !
+007151 Done !
+005777 Done !
+006736 Done !
+009008 Done !
+005983 Done !
+002121 Done !
+012148 Done !
+009651 Done !
+320007 Done !
+006537 Done !
+005402 Done !
+162214 Done !
+398011 Done !
+005894 Done !
+001764 Done !
+010592 Done !
+007132 Done !
+000913 Done !
+008293 Done !
+010237 Done !
+008050 Done !
+006225 Done !
+010110 Done !
+009896 Done !
+010090 Done !
+010925 Done !
+002332 Done !
+005644 Done !
+011815 Done !
+011601 Done !
+860060 Done !
+007368 Done !
+008093 Done !
+010387 Done !
+009380 Done !
+-----------------------数据导入完成，开始策略回测。-----------------------
+[Timestamp('2006-12-31 00:00:00'), Timestamp('2007-12-31 00:00:00'), Timestamp('2008-12-31 00:00:00'), Timestamp('2009-12-31 00:00:00'), Timestamp('2010-12-31 00:00:00'), Timestamp('2011-12-31 00:00:00'), Timestamp('2012-12-31 00:00:00'), Timestamp('2013-12-31 00:00:00'), Timestamp('2014-12-31 00:00:00'), Timestamp('2015-12-31 00:00:00'), Timestamp('2016-12-31 00:00:00'), Timestamp('2017-12-31 00:00:00'), Timestamp('2018-12-31 00:00:00'), Timestamp('2019-12-31 00:00:00'), Timestamp('2020-12-31 00:00:00'), Timestamp('2021-12-31 00:00:00')]
+------------------初始化完成!------------------
+E:/Project/portfolioanalysis/EquityFundAnalysis/calmar_strategy.py:92: FutureWarning: Comparison of Timestamp with datetime.date is deprecated in order to match the standard library behavior. In a future version these will be considered non-comparable. Use 'ts == pd.Timestamp(date)' or 'ts.date() == date' instead.
+  if dt in self.trade_dates:
+--------------2006-12-31 为调仓日----------
+long_list ['233001', '161903', '202001', '162201', '162102', '163302', '530001', '257010', '160106', '161606', '290002', '519087', '162607', '213002', '160105', '110002', '002011', '580001', '162703', '410001']
+sell_fund []
+-----------买入此次调仓期的基金--------------
+2007-01-04, BUY EXECUTED, ref:1, Price: 1.42, Cost: 4806764.81, Comm 480.68, Size: 3378859.00, Fund: 233001
+2007-01-04, BUY EXECUTED, ref:2, Price: 1.54, Cost: 4810145.69, Comm 481.01, Size: 3132625.00, Fund: 161903
+2007-01-04, BUY EXECUTED, ref:3, Price: 2.29, Cost: 4786601.43, Comm 478.66, Size: 2091589.00, Fund: 202001
+2007-01-04, BUY EXECUTED, ref:4, Price: 2.13, Cost: 4749775.95, Comm 474.98, Size: 2232877.00, Fund: 162201
+2007-01-04, BUY EXECUTED, ref:5, Price: 1.66, Cost: 4762925.41, Comm 476.29, Size: 2872520.00, Fund: 162102
+2007-01-04, BUY EXECUTED, ref:6, Price: 1.94, Cost: 4773339.15, Comm 477.33, Size: 2456938.00, Fund: 163302
+2007-01-04, BUY EXECUTED, ref:7, Price: 1.70, Cost: 4749719.87, Comm 474.97, Size: 2794446.00, Fund: 530001
+2007-01-04, BUY EXECUTED, ref:8, Price: 1.66, Cost: 4781665.21, Comm 478.17, Size: 2878787.00, Fund: 257010
+2007-01-04, BUY EXECUTED, ref:9, Price: 2.15, Cost: 4756186.98, Comm 475.62, Size: 2209816.00, Fund: 160106
+2007-01-04, BUY EXECUTED, ref:10, Price: 1.88, Cost: 4801129.54, Comm 480.11, Size: 2556512.00, Fund: 161606
+2007-01-04, BUY EXECUTED, ref:11, Price: 1.88, Cost: 4751765.11, Comm 475.18, Size: 2522570.00, Fund: 290002
+2007-01-04, BUY EXECUTED, ref:12, Price: 1.94, Cost: 4801861.64, Comm 480.19, Size: 2481454.00, Fund: 519087
+2007-01-04, BUY EXECUTED, ref:13, Price: 1.97, Cost: 4754827.84, Comm 475.48, Size: 2414844.00, Fund: 162607
+2007-01-04, BUY EXECUTED, ref:14, Price: 1.95, Cost: 4748537.39, Comm 474.85, Size: 2435647.00, Fund: 213002
+2007-01-04, BUY EXECUTED, ref:15, Price: 2.01, Cost: 4743377.57, Comm 474.34, Size: 2364595.00, Fund: 160105
+2007-01-04, BUY EXECUTED, ref:16, Price: 2.81, Cost: 4770362.57, Comm 477.04, Size: 1697034.00, Fund: 110002
+2007-01-04, BUY EXECUTED, ref:17, Price: 2.00, Cost: 4752381.27, Comm 475.24, Size: 2382146.00, Fund: 002011
+2007-01-04, BUY EXECUTED, ref:18, Price: 1.86, Cost: 4749998.62, Comm 475.00, Size: 2550061.00, Fund: 580001
+2007-01-04, BUY EXECUTED, ref:19, Price: 2.27, Cost: 4757949.29, Comm 475.79, Size: 2092418.00, Fund: 162703
+2007-01-04, BUY EXECUTED, ref:20, Price: 1.75, Cost: 4766032.17, Comm 476.60, Size: 2717546.00, Fund: 410001
+--------------2007-12-31 为调仓日----------
+long_list ['160805', '162102', '162202', '310328', '213002', '519017', '519087', '162203', '257030', '162006', '290002', '213003', '260101', '519181', '481004', '100022', '290004', '160605', '410001', '233001']
+sell_fund ['161903', '202001', '162201', '163302', '530001', '257010', '160106', '161606', '162607', '160105', '110002', '002011', '580001', '162703']
+-----------对不再持有的基金进行平仓--------------
+-----------买入此次调仓期的基金--------------
+2008-01-02, SELL EXECUTED, ref:21, Price: 2.61, Cost: 4810145.69, Comm 816.27, Size: -3132625.00, Fund: 161903
+2008-01-02, SELL EXECUTED, ref:22, Price: 3.49, Cost: 4786601.43, Comm 730.68, Size: -2091589.00, Fund: 202001
+2008-01-02, SELL EXECUTED, ref:23, Price: 3.34, Cost: 4749775.95, Comm 745.40, Size: -2232877.00, Fund: 162201
+2008-01-02, SELL EXECUTED, ref:24, Price: 3.39, Cost: 4773339.15, Comm 831.72, Size: -2456938.00, Fund: 163302
+2008-01-02, SELL EXECUTED, ref:25, Price: 2.69, Cost: 4749719.87, Comm 751.96, Size: -2794446.00, Fund: 530001
+2008-01-02, SELL EXECUTED, ref:26, Price: 3.25, Cost: 4781665.21, Comm 936.47, Size: -2878787.00, Fund: 257010
+2008-01-02, SELL EXECUTED, ref:27, Price: 3.85, Cost: 4756186.98, Comm 851.60, Size: -2209816.00, Fund: 160106
+2008-01-02, SELL EXECUTED, ref:28, Price: 3.30, Cost: 4801129.54, Comm 843.90, Size: -2556512.00, Fund: 161606
+2008-01-02, SELL EXECUTED, ref:29, Price: 3.12, Cost: 4754827.84, Comm 753.91, Size: -2414844.00, Fund: 162607
+2008-01-02, SELL EXECUTED, ref:30, Price: 3.11, Cost: 4743377.57, Comm 735.91, Size: -2364595.00, Fund: 160105
+2008-01-02, SELL EXECUTED, ref:31, Price: 5.99, Cost: 4770362.57, Comm 1016.01, Size: -1697034.00, Fund: 110002
+2008-01-02, SELL EXECUTED, ref:32, Price: 3.97, Cost: 4752381.27, Comm 946.19, Size: -2382146.00, Fund: 002011
+2008-01-02, SELL EXECUTED, ref:33, Price: 2.77, Cost: 4749998.62, Comm 707.64, Size: -2550061.00, Fund: 580001
+2008-01-02, SELL EXECUTED, ref:34, Price: 4.21, Cost: 4757949.29, Comm 880.91, Size: -2092418.00, Fund: 162703
+2008-01-02, BUY EXECUTED, ref:35, Price: 2.84, Cost: 7917503.48, Comm 791.75, Size: 2789818.00, Fund: 160805
+2008-01-02, BUY EXECUTED, ref:36, Price: 2.25, Cost: 1536434.59, Comm 153.64, Size: 681648.00, Fund: 162102
+2008-01-02, BUY EXECUTED, ref:37, Price: 3.46, Cost: 7939513.99, Comm 793.95, Size: 2297579.00, Fund: 162202
+2008-01-02, BUY EXECUTED, ref:38, Price: 3.51, Cost: 7956342.45, Comm 795.63, Size: 2265925.00, Fund: 310328
+2008-01-02, BUY EXECUTED, ref:39, Price: 3.04, Cost: 549768.01, Comm 54.98, Size: 180815.00, Fund: 213002
+2008-01-02, BUY EXECUTED, ref:40, Price: 2.55, Cost: 7868900.47, Comm 786.89, Size: 3089478.00, Fund: 519017
+2008-01-02, BUY EXECUTED, ref:41, Price: 2.80, Cost: 954905.77, Comm 95.49, Size: 340442.00, Fund: 519087
+2008-01-02, BUY EXECUTED, ref:42, Price: 3.19, Cost: 7881384.60, Comm 788.14, Size: 2474299.00, Fund: 162203
+2008-01-02, BUY EXECUTED, ref:43, Price: 1.74, Cost: 7923707.70, Comm 792.37, Size: 4553855.00, Fund: 257030
+2008-01-02, BUY EXECUTED, ref:44, Price: 3.72, Cost: 7914364.86, Comm 791.44, Size: 2129120.00, Fund: 162006
+2008-01-02, SELL EXECUTED, ref:45, Price: 3.22, Cost: 96481.23, Comm 16.49, Size: -51219.00, Fund: 290002
+2008-01-02, BUY EXECUTED, ref:46, Price: 1.84, Cost: 7884157.13, Comm 788.42, Size: 4277429.00, Fund: 213003
+2008-01-02, BUY EXECUTED, ref:47, Price: 3.52, Cost: 7881975.97, Comm 788.20, Size: 2240025.00, Fund: 260101
+2008-01-02, BUY EXECUTED, ref:48, Price: 2.13, Cost: 7925321.53, Comm 792.53, Size: 3712790.00, Fund: 519181
+2008-01-02, BUY EXECUTED, ref:49, Price: 2.00, Cost: 7910984.34, Comm 791.10, Size: 3953713.00, Fund: 481004
+2008-01-02, BUY EXECUTED, ref:50, Price: 3.48, Cost: 8007608.53, Comm 800.76, Size: 2299121.00, Fund: 100022
+2008-01-02, BUY EXECUTED, ref:51, Price: 2.14, Cost: 7939765.53, Comm 793.98, Size: 3710691.00, Fund: 290004
+2008-01-02, BUY EXECUTED, ref:52, Price: 3.78, Cost: 7905384.51, Comm 790.54, Size: 2093587.00, Fund: 160605
+2008-01-02, SELL EXECUTED, ref:53, Price: 3.09, Cost: 172701.95, Comm 30.40, Size: -98473.00, Fund: 410001
+2008-01-02, SELL EXECUTED, ref:54, Price: 2.81, Cost: 796930.56, Comm 157.45, Size: -560193.00, Fund: 233001
+--------------2008-12-31 为调仓日----------
+long_list ['519019', '233001', '050201', '121008', '110029', '166001', '202007', '410003', '560003', '580002', '310308', '260109', '160105', '310358', '570001', '460002', '260110', '310328', '260104', '519694']
+sell_fund ['160805', '162102', '162202', '213002', '519017', '519087', '162203', '257030', '162006', '290002', '213003', '260101', '519181', '481004', '100022', '290004', '160605', '410001']
+-----------对不再持有的基金进行平仓--------------
+-----------买入此次调仓期的基金--------------
+2009-01-05, SELL EXECUTED, ref:55, Price: 2.00, Cost: 7917503.48, Comm 559.08, Size: -2789818.00, Fund: 160805
+2009-01-05, SELL EXECUTED, ref:56, Price: 1.71, Cost: 6299360.00, Comm 606.59, Size: -3554168.00, Fund: 162102
+2009-01-05, SELL EXECUTED, ref:57, Price: 2.59, Cost: 7939513.99, Comm 595.72, Size: -2297579.00, Fund: 162202
+2009-01-05, SELL EXECUTED, ref:58, Price: 2.05, Cost: 5298305.40, Comm 535.93, Size: -2616462.00, Fund: 213002
+2009-01-05, SELL EXECUTED, ref:59, Price: 1.70, Cost: 7868900.47, Comm 525.83, Size: -3089478.00, Fund: 519017
+2009-01-05, SELL EXECUTED, ref:60, Price: 1.91, Cost: 5756767.40, Comm 540.31, Size: -2821896.00, Fund: 519087
+2009-01-05, SELL EXECUTED, ref:61, Price: 2.43, Cost: 7881384.60, Comm 602.34, Size: -2474299.00, Fund: 162203
+2009-01-05, SELL EXECUTED, ref:62, Price: 0.92, Cost: 7923707.70, Comm 417.59, Size: -4553855.00, Fund: 257030
+2009-01-05, SELL EXECUTED, ref:63, Price: 2.90, Cost: 7914364.86, Comm 617.04, Size: -2129120.00, Fund: 162006
+2009-01-05, SELL EXECUTED, ref:64, Price: 2.18, Cost: 4655283.88, Comm 539.67, Size: -2471351.00, Fund: 290002
+2009-01-05, SELL EXECUTED, ref:65, Price: 1.03, Cost: 7884157.13, Comm 438.48, Size: -4277429.00, Fund: 213003
+2009-01-05, SELL EXECUTED, ref:66, Price: 2.68, Cost: 7881975.97, Comm 600.46, Size: -2240025.00, Fund: 260101
+2009-01-05, SELL EXECUTED, ref:67, Price: 1.10, Cost: 7925321.53, Comm 408.07, Size: -3712790.00, Fund: 519181
+2009-01-05, SELL EXECUTED, ref:68, Price: 1.05, Cost: 7910984.34, Comm 416.37, Size: -3953713.00, Fund: 481004
+2009-01-05, SELL EXECUTED, ref:69, Price: 2.37, Cost: 8007608.53, Comm 544.06, Size: -2299121.00, Fund: 100022
+2009-01-05, SELL EXECUTED, ref:70, Price: 1.25, Cost: 7939765.53, Comm 464.02, Size: -3710691.00, Fund: 290004
+2009-01-05, SELL EXECUTED, ref:71, Price: 2.69, Cost: 7905384.51, Comm 563.38, Size: -2093587.00, Fund: 160605
+2009-01-05, SELL EXECUTED, ref:72, Price: 1.80, Cost: 4593330.23, Comm 472.19, Size: -2619073.00, Fund: 410001
+2009-01-05, BUY EXECUTED, ref:73, Price: 3.43, Cost: 5343938.77, Comm 534.39, Size: 1558454.00, Fund: 519019
+2009-01-05, SELL EXECUTED, ref:74, Price: 1.98, Cost: 154130.17, Comm 21.41, Size: -108344.00, Fund: 233001
+2009-01-05, BUY EXECUTED, ref:75, Price: 1.96, Cost: 5355323.84, Comm 535.53, Size: 2735099.00, Fund: 050201
+2009-01-05, BUY EXECUTED, ref:76, Price: 1.27, Cost: 5425297.68, Comm 542.53, Size: 4257807.00, Fund: 121008
+2009-01-05, BUY EXECUTED, ref:77, Price: 3.73, Cost: 5363377.71, Comm 536.34, Size: 1439292.00, Fund: 110029
+2009-01-05, BUY EXECUTED, ref:78, Price: 0.89, Cost: 5419399.56, Comm 541.94, Size: 6074879.00, Fund: 166001
+2009-01-05, BUY EXECUTED, ref:79, Price: 0.46, Cost: 5469489.48, Comm 546.95, Size: 12020856.00, Fund: 202007
+2009-01-05, BUY EXECUTED, ref:80, Price: 0.77, Cost: 5407209.19, Comm 540.72, Size: 7005972.00, Fund: 410003
+2009-01-05, BUY EXECUTED, ref:81, Price: 0.59, Cost: 5496267.33, Comm 549.63, Size: 9345804.00, Fund: 560003
+2009-01-05, BUY EXECUTED, ref:82, Price: 1.44, Cost: 5371204.47, Comm 537.12, Size: 3737010.00, Fund: 580002
+2009-01-05, BUY EXECUTED, ref:83, Price: 2.20, Cost: 5361512.56, Comm 536.15, Size: 2434506.00, Fund: 310308
+2009-01-05, BUY EXECUTED, ref:84, Price: 1.47, Cost: 5436490.94, Comm 543.65, Size: 3708384.00, Fund: 260109
+2009-01-05, BUY EXECUTED, ref:85, Price: 2.20, Cost: 5360073.18, Comm 536.01, Size: 2435954.00, Fund: 160105
+2009-01-05, BUY EXECUTED, ref:86, Price: 1.81, Cost: 5365467.22, Comm 536.55, Size: 2957973.00, Fund: 310358
+2009-01-05, BUY EXECUTED, ref:87, Price: 0.64, Cost: 5450069.33, Comm 545.01, Size: 8491850.00, Fund: 570001
+2009-01-05, BUY EXECUTED, ref:88, Price: 0.76, Cost: 5484395.61, Comm 548.44, Size: 7234396.00, Fund: 460002
+2009-01-05, BUY EXECUTED, ref:89, Price: 0.62, Cost: 5465839.93, Comm 546.58, Size: 8787524.00, Fund: 260110
+2009-01-05, BUY EXECUTED, ref:90, Price: 2.18, Cost: 450721.85, Comm 45.07, Size: 206905.00, Fund: 310328
+2009-01-05, BUY EXECUTED, ref:91, Price: 2.99, Cost: 5434174.60, Comm 543.42, Size: 1815628.00, Fund: 260104
+2009-01-05, BUY EXECUTED, ref:92, Price: 0.56, Cost: 5398108.74, Comm 539.81, Size: 9588115.00, Fund: 519694
+--------------2009-12-31 为调仓日----------
+long_list ['213002', '260108', '217005', '580002', '420003', '110029', '217001', '233001', '290002', '200010', '460002', '161609', '519993', '460001', '161601', '162605', '260111', '580001', '257010', '310328']
+sell_fund ['519019', '050201', '121008', '166001', '202007', '410003', '560003', '310308', '260109', '160105', '310358', '570001', '260110', '260104', '519694']
+-----------对不再持有的基金进行平仓--------------
+-----------买入此次调仓期的基金--------------
+2010-01-04, SELL EXECUTED, ref:93, Price: 3.77, Cost: 5343938.77, Comm 587.23, Size: -1558454.00, Fund: 519019
+2010-01-04, SELL EXECUTED, ref:94, Price: 2.24, Cost: 5355323.84, Comm 613.76, Size: -2735099.00, Fund: 050201
+2010-01-04, SELL EXECUTED, ref:95, Price: 2.27, Cost: 5425297.68, Comm 968.48, Size: -4257807.00, Fund: 121008
+2010-01-04, SELL EXECUTED, ref:96, Price: 1.28, Cost: 5419399.56, Comm 775.70, Size: -6074879.00, Fund: 166001
+2010-01-04, SELL EXECUTED, ref:97, Price: 0.71, Cost: 5469489.48, Comm 847.47, Size: -12020856.00, Fund: 202007
+2010-01-04, SELL EXECUTED, ref:98, Price: 1.02, Cost: 5407209.19, Comm 716.36, Size: -7005972.00, Fund: 410003
+2010-01-04, SELL EXECUTED, ref:99, Price: 0.97, Cost: 5496267.33, Comm 907.85, Size: -9345804.00, Fund: 560003
+2010-01-04, SELL EXECUTED, ref:100, Price: 2.57, Cost: 5361512.56, Comm 624.62, Size: -2434506.00, Fund: 310308
+2010-01-04, SELL EXECUTED, ref:101, Price: 2.31, Cost: 5436490.94, Comm 855.15, Size: -3708384.00, Fund: 260109
+2010-01-04, SELL EXECUTED, ref:102, Price: 2.61, Cost: 5360073.18, Comm 636.39, Size: -2435954.00, Fund: 160105
+2010-01-04, SELL EXECUTED, ref:103, Price: 2.10, Cost: 5365467.22, Comm 622.33, Size: -2957973.00, Fund: 310358
+2010-01-04, SELL EXECUTED, ref:104, Price: 1.01, Cost: 5450069.33, Comm 855.98, Size: -8491850.00, Fund: 570001
+2010-01-04, SELL EXECUTED, ref:105, Price: 0.99, Cost: 5465839.93, Comm 868.21, Size: -8787524.00, Fund: 260110
+2010-01-04, SELL EXECUTED, ref:106, Price: 4.78, Cost: 5434174.60, Comm 867.33, Size: -1815628.00, Fund: 260104
+2010-01-04, SELL EXECUTED, ref:107, Price: 0.93, Cost: 5398108.74, Comm 894.95, Size: -9588115.00, Fund: 519694
+2010-01-04, BUY EXECUTED, ref:108, Price: 2.31, Cost: 7308365.09, Comm 730.84, Size: 3166536.00, Fund: 213002
+2010-01-04, BUY EXECUTED, ref:109, Price: 2.35, Cost: 7335101.66, Comm 733.51, Size: 3116016.00, Fund: 260108
+2010-01-04, BUY EXECUTED, ref:110, Price: 2.73, Cost: 7343491.77, Comm 734.35, Size: 2692488.00, Fund: 217005
+2010-01-04, BUY EXECUTED, ref:111, Price: 1.73, Cost: 916791.88, Comm 91.68, Size: 530244.00, Fund: 580002
+2010-01-04, BUY EXECUTED, ref:112, Price: 1.31, Cost: 7354133.46, Comm 735.41, Size: 5633193.00, Fund: 420003
+2010-01-04, BUY EXECUTED, ref:113, Price: 4.36, Cost: 1050201.75, Comm 105.02, Size: 240756.00, Fund: 110029
+2010-01-04, BUY EXECUTED, ref:114, Price: 3.48, Cost: 7366108.32, Comm 736.61, Size: 2115482.00, Fund: 217001
+2010-01-04, BUY EXECUTED, ref:115, Price: 2.13, Cost: 1594881.05, Comm 159.49, Size: 748665.00, Fund: 233001
+2010-01-04, BUY EXECUTED, ref:116, Price: 2.65, Cost: 7349558.78, Comm 734.96, Size: 2772686.00, Fund: 290002
+2010-01-04, BUY EXECUTED, ref:117, Price: 1.29, Cost: 7284520.54, Comm 728.45, Size: 5656562.00, Fund: 200010
+2010-01-04, SELL EXECUTED, ref:118, Price: 1.05, Cost: 187372.75, Comm 25.84, Size: -247161.00, Fund: 460002
+2010-01-04, BUY EXECUTED, ref:119, Price: 1.92, Cost: 7328738.92, Comm 732.87, Size: 3823025.00, Fund: 161609
+2010-01-04, BUY EXECUTED, ref:120, Price: 2.13, Cost: 7353489.71, Comm 735.35, Size: 3448457.00, Fund: 519993
+2010-01-04, BUY EXECUTED, ref:121, Price: 2.72, Cost: 7324633.41, Comm 732.46, Size: 2693276.00, Fund: 460001
+2010-01-04, BUY EXECUTED, ref:122, Price: 3.17, Cost: 7343700.16, Comm 734.37, Size: 2315091.00, Fund: 161601
+2010-01-04, BUY EXECUTED, ref:123, Price: 3.23, Cost: 7344930.99, Comm 734.49, Size: 2276792.00, Fund: 162605
+2010-01-04, BUY EXECUTED, ref:124, Price: 1.48, Cost: 7308678.20, Comm 730.87, Size: 4951679.00, Fund: 260111
+2010-01-04, BUY EXECUTED, ref:125, Price: 2.49, Cost: 7351043.18, Comm 735.10, Size: 2951752.00, Fund: 580001
+2010-01-04, BUY EXECUTED, ref:126, Price: 2.98, Cost: 7355747.11, Comm 735.57, Size: 2466716.00, Fund: 257010
+2010-01-04, BUY EXECUTED, ref:127, Price: 2.76, Cost: 527745.12, Comm 52.77, Size: 191212.00, Fund: 310328
+--------------2010-12-31 为调仓日----------
+long_list ['213002', '166001', '200008', '560002', '160607', '240009', '200010', '519688', '050201', '180013', '260110', '162208', '378010', '162605', '377010', '160505', '481008', '519694', '020018', '213003']
+sell_fund ['260108', '217005', '580002', '420003', '110029', '217001', '233001', '290002', '460002', '161609', '519993', '460001', '161601', '260111', '580001', '257010', '310328']
+-----------对不再持有的基金进行平仓--------------
+-----------买入此次调仓期的基金--------------
+2011-01-04, SELL EXECUTED, ref:128, Price: 2.37, Cost: 7335101.66, Comm 739.12, Size: -3116016.00, Fund: 260108
+2011-01-04, SELL EXECUTED, ref:129, Price: 2.73, Cost: 7343491.77, Comm 734.13, Size: -2692488.00, Fund: 217005
+2011-01-04, SELL EXECUTED, ref:130, Price: 2.01, Cost: 6287996.35, Comm 858.66, Size: -4267254.00, Fund: 580002
+2011-01-04, SELL EXECUTED, ref:131, Price: 1.45, Cost: 7354133.46, Comm 818.90, Size: -5633193.00, Fund: 420003
+2011-01-04, SELL EXECUTED, ref:132, Price: 4.33, Cost: 6413579.46, Comm 728.20, Size: -1680048.00, Fund: 110029
+2011-01-04, SELL EXECUTED, ref:133, Price: 3.49, Cost: 7366108.32, Comm 737.33, Size: -2115482.00, Fund: 217001
+2011-01-04, SELL EXECUTED, ref:134, Price: 2.13, Cost: 5450585.13, Comm 736.11, Size: -3458987.00, Fund: 233001
+2011-01-04, SELL EXECUTED, ref:135, Price: 2.60, Cost: 7349558.78, Comm 721.87, Size: -2772686.00, Fund: 290002
+2011-01-04, SELL EXECUTED, ref:136, Price: 1.13, Cost: 5297022.85, Comm 792.42, Size: -6987235.00, Fund: 460002
+2011-01-04, SELL EXECUTED, ref:137, Price: 1.88, Cost: 7328738.92, Comm 719.49, Size: -3823025.00, Fund: 161609
+2011-01-04, SELL EXECUTED, ref:138, Price: 2.09, Cost: 7353489.71, Comm 719.90, Size: -3448457.00, Fund: 519993
+2011-01-04, SELL EXECUTED, ref:139, Price: 2.86, Cost: 7324633.41, Comm 768.96, Size: -2693276.00, Fund: 460001
+2011-01-04, SELL EXECUTED, ref:140, Price: 3.17, Cost: 7343700.16, Comm 734.74, Size: -2315091.00, Fund: 161601
+2011-01-04, SELL EXECUTED, ref:141, Price: 1.71, Cost: 7308678.20, Comm 847.73, Size: -4951679.00, Fund: 260111
+2011-01-04, SELL EXECUTED, ref:142, Price: 2.64, Cost: 7351043.18, Comm 780.38, Size: -2951752.00, Fund: 580001
+2011-01-04, SELL EXECUTED, ref:143, Price: 3.04, Cost: 7355747.11, Comm 750.38, Size: -2466716.00, Fund: 257010
+2011-01-04, SELL EXECUTED, ref:144, Price: 2.73, Cost: 8934809.42, Comm 727.76, Size: -2664042.00, Fund: 310328
+2011-01-04, BUY EXECUTED, ref:145, Price: 2.07, Cost: 910599.36, Comm 91.06, Size: 440435.00, Fund: 213002
+2011-01-04, BUY EXECUTED, ref:146, Price: 1.13, Cost: 7492252.22, Comm 749.23, Size: 6629725.00, Fund: 166001
+2011-01-04, BUY EXECUTED, ref:147, Price: 0.78, Cost: 7558594.21, Comm 755.86, Size: 9669431.00, Fund: 200008
+2011-01-04, BUY EXECUTED, ref:148, Price: 1.72, Cost: 7473771.15, Comm 747.38, Size: 4336895.00, Fund: 560002
+2011-01-04, BUY EXECUTED, ref:149, Price: 2.54, Cost: 7512108.46, Comm 751.21, Size: 2954034.00, Fund: 160607
+2011-01-04, BUY EXECUTED, ref:150, Price: 2.22, Cost: 7627549.79, Comm 762.75, Size: 3435369.00, Fund: 240009
+2011-01-04, BUY EXECUTED, ref:151, Price: 1.22, Cost: 747196.64, Comm 74.72, Size: 614572.00, Fund: 200010
+2011-01-04, BUY EXECUTED, ref:152, Price: 3.08, Cost: 7435798.95, Comm 743.58, Size: 2418146.00, Fund: 519688
+2011-01-04, BUY EXECUTED, ref:153, Price: 2.20, Cost: 7466438.42, Comm 746.64, Size: 3395379.00, Fund: 050201
+2011-01-04, BUY EXECUTED, ref:154, Price: 1.87, Cost: 7525538.58, Comm 752.55, Size: 4014477.00, Fund: 180013
+2011-01-04, BUY EXECUTED, ref:155, Price: 0.88, Cost: 7537639.60, Comm 753.76, Size: 8594800.00, Fund: 260110
+2011-01-04, BUY EXECUTED, ref:156, Price: 1.55, Cost: 7558408.25, Comm 755.84, Size: 4891857.00, Fund: 162208
+2011-01-04, BUY EXECUTED, ref:157, Price: 2.28, Cost: 7464158.05, Comm 746.42, Size: 3280516.00, Fund: 378010
+2011-01-04, BUY EXECUTED, ref:158, Price: 3.12, Cost: 327081.25, Comm 32.71, Size: 104666.00, Fund: 162605
+2011-01-04, BUY EXECUTED, ref:159, Price: 5.12, Cost: 7483516.60, Comm 748.35, Size: 1460911.00, Fund: 377010
+2011-01-04, BUY EXECUTED, ref:160, Price: 3.50, Cost: 7474980.88, Comm 747.50, Size: 2137541.00, Fund: 160505
+2011-01-04, BUY EXECUTED, ref:161, Price: 1.53, Cost: 7487221.34, Comm 748.72, Size: 4906436.00, Fund: 481008
+2011-01-04, BUY EXECUTED, ref:162, Price: 0.86, Cost: 7462649.90, Comm 746.26, Size: 8698741.00, Fund: 519694
+2011-01-04, BUY EXECUTED, ref:163, Price: 1.09, Cost: 7449574.40, Comm 744.96, Size: 6809483.00, Fund: 020018
+2011-01-04, BUY EXECUTED, ref:164, Price: 1.40, Cost: 7480366.26, Comm 748.04, Size: 5346938.00, Fund: 213003
+--------------2011-12-31 为调仓日----------
+long_list ['200012', '519702', '070021', '233001', '376510', '290006', '233006', '630006', '161611', '519026', '630002', '217001', '217010', '550001', '090009', '040007', '070017', '630001', '090003', '550008']
+sell_fund ['213002', '166001', '200008', '560002', '160607', '240009', '200010', '519688', '050201', '180013', '260110', '162208', '378010', '162605', '377010', '160505', '481008', '519694', '020018', '213003']
+-----------对不再持有的基金进行平仓--------------
+-----------买入此次调仓期的基金--------------
+2012-01-04, SELL EXECUTED, ref:165, Price: 1.83, Cost: 8218964.45, Comm 661.41, Size: -3606971.00, Fund: 213002
+2012-01-04, SELL EXECUTED, ref:166, Price: 0.88, Cost: 7492252.22, Comm 581.16, Size: -6629725.00, Fund: 166001
+2012-01-04, SELL EXECUTED, ref:167, Price: 0.67, Cost: 7558594.21, Comm 643.89, Size: -9669431.00, Fund: 200008
+2012-01-04, SELL EXECUTED, ref:168, Price: 1.40, Cost: 7473771.15, Comm 609.29, Size: -4336895.00, Fund: 560002
+2012-01-04, SELL EXECUTED, ref:169, Price: 2.25, Cost: 7512108.46, Comm 663.77, Size: -2954034.00, Fund: 160607
+2012-01-04, SELL EXECUTED, ref:170, Price: 1.45, Cost: 7627549.79, Comm 499.23, Size: -3435369.00, Fund: 240009
+2012-01-04, SELL EXECUTED, ref:171, Price: 0.85, Cost: 8031717.18, Comm 530.85, Size: -6271134.00, Fund: 200010
+2012-01-04, SELL EXECUTED, ref:172, Price: 2.80, Cost: 7435798.95, Comm 678.00, Size: -2418146.00, Fund: 519688
+2012-01-04, SELL EXECUTED, ref:173, Price: 2.11, Cost: 7466438.42, Comm 715.07, Size: -3395379.00, Fund: 050201
+2012-01-04, SELL EXECUTED, ref:174, Price: 1.40, Cost: 7525538.58, Comm 561.38, Size: -4014477.00, Fund: 180013
+2012-01-04, SELL EXECUTED, ref:175, Price: 0.66, Cost: 7537639.60, Comm 568.98, Size: -8594800.00, Fund: 260110
+2012-01-04, SELL EXECUTED, ref:176, Price: 1.22, Cost: 7558408.25, Comm 596.32, Size: -4891857.00, Fund: 162208
+2012-01-04, SELL EXECUTED, ref:177, Price: 1.86, Cost: 7464158.05, Comm 611.39, Size: -3280516.00, Fund: 378010
+2012-01-04, SELL EXECUTED, ref:178, Price: 2.88, Cost: 7672012.24, Comm 685.15, Size: -2381458.00, Fund: 162605
+2012-01-04, SELL EXECUTED, ref:179, Price: 4.11, Cost: 7483516.60, Comm 600.19, Size: -1460911.00, Fund: 377010
+2012-01-04, SELL EXECUTED, ref:180, Price: 3.28, Cost: 7474980.88, Comm 700.90, Size: -2137541.00, Fund: 160505
+2012-01-04, SELL EXECUTED, ref:181, Price: 1.16, Cost: 7487221.34, Comm 567.67, Size: -4906436.00, Fund: 481008
+2012-01-04, SELL EXECUTED, ref:182, Price: 0.65, Cost: 7462649.90, Comm 564.64, Size: -8698741.00, Fund: 519694
+2012-01-04, SELL EXECUTED, ref:183, Price: 1.07, Cost: 7449574.40, Comm 730.66, Size: -6809483.00, Fund: 020018
+2012-01-04, SELL EXECUTED, ref:184, Price: 1.14, Cost: 7480366.26, Comm 611.26, Size: -5346938.00, Fund: 213003
+2012-01-04, BUY EXECUTED, ref:185, Price: 0.77, Cost: 6116458.81, Comm 611.65, Size: 7943453.00, Fund: 200012
+2012-01-04, BUY EXECUTED, ref:186, Price: 0.73, Cost: 6157001.92, Comm 615.70, Size: 8388286.00, Fund: 519702
+2012-01-04, BUY EXECUTED, ref:187, Price: 0.75, Cost: 6152498.25, Comm 615.25, Size: 8159812.00, Fund: 070021
+2012-01-04, BUY EXECUTED, ref:188, Price: 1.95, Cost: 6277017.91, Comm 627.70, Size: 3226595.00, Fund: 233001
+2012-01-04, BUY EXECUTED, ref:189, Price: 0.75, Cost: 6159115.50, Comm 615.91, Size: 8256187.00, Fund: 376510
+2012-01-04, BUY EXECUTED, ref:190, Price: 1.07, Cost: 6249311.98, Comm 624.93, Size: 5819810.00, Fund: 290006
+2012-01-04, BUY EXECUTED, ref:191, Price: 0.91, Cost: 6205582.83, Comm 620.56, Size: 6796170.00, Fund: 233006
+2012-01-04, BUY EXECUTED, ref:192, Price: 0.65, Cost: 6138931.33, Comm 613.89, Size: 9517723.00, Fund: 630006
+2012-01-04, BUY EXECUTED, ref:193, Price: 0.71, Cost: 6144505.89, Comm 614.45, Size: 8629924.00, Fund: 161611
+2012-01-04, BUY EXECUTED, ref:194, Price: 0.87, Cost: 6233826.25, Comm 623.38, Size: 7173563.00, Fund: 519026
+2012-01-04, BUY EXECUTED, ref:195, Price: 1.92, Cost: 6213165.85, Comm 621.32, Size: 3238554.00, Fund: 630002
+2012-01-04, BUY EXECUTED, ref:196, Price: 3.32, Cost: 6281194.13, Comm 628.12, Size: 1890730.00, Fund: 217001
+2012-01-04, BUY EXECUTED, ref:197, Price: 1.24, Cost: 6196120.67, Comm 619.61, Size: 5004944.00, Fund: 217010
+2012-01-04, BUY EXECUTED, ref:198, Price: 1.92, Cost: 6244144.56, Comm 624.41, Size: 3246241.00, Fund: 550001
+2012-01-04, BUY EXECUTED, ref:199, Price: 0.75, Cost: 6159289.15, Comm 615.93, Size: 8245367.00, Fund: 090009
+2012-01-04, BUY EXECUTED, ref:200, Price: 2.18, Cost: 6241965.66, Comm 624.20, Size: 2863287.00, Fund: 040007
+2012-01-04, BUY EXECUTED, ref:201, Price: 0.88, Cost: 6151564.88, Comm 615.16, Size: 6982480.00, Fund: 070017
+2012-01-04, BUY EXECUTED, ref:202, Price: 0.93, Cost: 6205515.87, Comm 620.55, Size: 6643310.00, Fund: 630001
+2012-01-04, BUY EXECUTED, ref:203, Price: 3.16, Cost: 6258316.75, Comm 625.83, Size: 1981797.00, Fund: 090003
+2012-01-04, BUY EXECUTED, ref:204, Price: 0.74, Cost: 6150675.53, Comm 615.07, Size: 8267037.00, Fund: 550008
+--------------2012-12-31 为调仓日----------
+long_list ['560002', '020003', '560003', '160212', '210008', '163818', '570007', '519021', '377010', '410003', '410001', '710001', '630002', '260108', '210003', '260111', '210005', '519672', '020015', '180013']
+sell_fund ['200012', '519702', '070021', '233001', '376510', '290006', '233006', '630006', '161611', '519026', '217001', '217010', '550001', '090009', '040007', '070017', '630001', '090003', '550008']
+-----------对不再持有的基金进行平仓--------------
+-----------买入此次调仓期的基金--------------
+2013-01-04, SELL EXECUTED, ref:205, Price: 0.78, Cost: 6116458.81, Comm 618.79, Size: -7943453.00, Fund: 200012
+2013-01-04, SELL EXECUTED, ref:206, Price: 0.75, Cost: 6157001.92, Comm 625.77, Size: -8388286.00, Fund: 519702
+2013-01-04, SELL EXECUTED, ref:207, Price: 0.80, Cost: 6152498.25, Comm 651.97, Size: -8159812.00, Fund: 070021
+2013-01-04, SELL EXECUTED, ref:208, Price: 1.94, Cost: 6277017.91, Comm 625.35, Size: -3226595.00, Fund: 233001
+2013-01-04, SELL EXECUTED, ref:209, Price: 0.80, Cost: 6159115.50, Comm 661.32, Size: -8256187.00, Fund: 376510
+2013-01-04, SELL EXECUTED, ref:210, Price: 1.19, Cost: 6249311.98, Comm 691.28, Size: -5819810.00, Fund: 290006
+2013-01-04, SELL EXECUTED, ref:211, Price: 0.92, Cost: 6205582.83, Comm 622.46, Size: -6796170.00, Fund: 233006
+2013-01-04, SELL EXECUTED, ref:212, Price: 0.66, Cost: 6138931.33, Comm 626.27, Size: -9517723.00, Fund: 630006
+2013-01-04, SELL EXECUTED, ref:213, Price: 0.79, Cost: 6144505.89, Comm 679.18, Size: -8629924.00, Fund: 161611
+2013-01-04, SELL EXECUTED, ref:214, Price: 0.89, Cost: 6233826.25, Comm 639.88, Size: -7173563.00, Fund: 519026
+2013-01-04, SELL EXECUTED, ref:215, Price: 3.33, Cost: 6281194.13, Comm 630.46, Size: -1890730.00, Fund: 217001
+2013-01-04, SELL EXECUTED, ref:216, Price: 1.30, Cost: 6196120.67, Comm 651.14, Size: -5004944.00, Fund: 217010
+2013-01-04, SELL EXECUTED, ref:217, Price: 1.91, Cost: 6244144.56, Comm 619.87, Size: -3246241.00, Fund: 550001
+2013-01-04, SELL EXECUTED, ref:218, Price: 0.79, Cost: 6159289.15, Comm 651.38, Size: -8245367.00, Fund: 090009
+2013-01-04, SELL EXECUTED, ref:219, Price: 2.23, Cost: 6241965.66, Comm 638.14, Size: -2863287.00, Fund: 040007
+2013-01-04, SELL EXECUTED, ref:220, Price: 0.91, Cost: 6151564.88, Comm 635.41, Size: -6982480.00, Fund: 070017
+2013-01-04, SELL EXECUTED, ref:221, Price: 1.08, Cost: 6205515.87, Comm 714.55, Size: -6643310.00, Fund: 630001
+2013-01-04, SELL EXECUTED, ref:222, Price: 3.21, Cost: 6258316.75, Comm 636.57, Size: -1981797.00, Fund: 090003
+2013-01-04, SELL EXECUTED, ref:223, Price: 0.81, Cost: 6150675.53, Comm 667.15, Size: -8267037.00, Fund: 550008
+2013-01-04, BUY EXECUTED, ref:224, Price: 1.30, Cost: 6470515.87, Comm 647.05, Size: 4989602.00, Fund: 560002
+2013-01-04, BUY EXECUTED, ref:225, Price: 3.39, Cost: 6477785.01, Comm 647.78, Size: 1908599.00, Fund: 020003
+2013-01-04, BUY EXECUTED, ref:226, Price: 0.69, Cost: 6464169.72, Comm 646.42, Size: 9331846.00, Fund: 560003
+2013-01-04, BUY EXECUTED, ref:227, Price: 0.77, Cost: 6461180.82, Comm 646.12, Size: 8445988.00, Fund: 160212
+2013-01-04, BUY EXECUTED, ref:228, Price: 0.88, Cost: 6467795.43, Comm 646.78, Size: 7343092.00, Fund: 210008
+2013-01-04, BUY EXECUTED, ref:229, Price: 0.94, Cost: 6474302.64, Comm 647.43, Size: 6887556.00, Fund: 163818
+2013-01-04, BUY EXECUTED, ref:230, Price: 0.72, Cost: 6450295.29, Comm 645.03, Size: 8933927.00, Fund: 570007
+2013-01-04, BUY EXECUTED, ref:231, Price: 1.72, Cost: 6464807.41, Comm 646.48, Size: 3769567.00, Fund: 519021
+2013-01-04, BUY EXECUTED, ref:232, Price: 3.97, Cost: 6431078.28, Comm 643.11, Size: 1621471.00, Fund: 377010
+2013-01-04, BUY EXECUTED, ref:233, Price: 0.79, Cost: 6511542.23, Comm 651.15, Size: 8288623.00, Fund: 410003
+2013-01-04, BUY EXECUTED, ref:234, Price: 1.57, Cost: 6453572.54, Comm 645.36, Size: 4098287.00, Fund: 410001
+2013-01-04, BUY EXECUTED, ref:235, Price: 0.91, Cost: 6576933.57, Comm 657.69, Size: 7190263.00, Fund: 710001
+2013-01-04, BUY EXECUTED, ref:236, Price: 1.84, Cost: 440967.53, Comm 44.10, Size: 240270.00, Fund: 630002
+2013-01-04, BUY EXECUTED, ref:237, Price: 1.98, Cost: 6478579.58, Comm 647.86, Size: 3276975.00, Fund: 260108
+2013-01-04, BUY EXECUTED, ref:238, Price: 0.72, Cost: 6469678.73, Comm 646.97, Size: 9030819.00, Fund: 210003
+2013-01-04, BUY EXECUTED, ref:239, Price: 1.21, Cost: 6441639.46, Comm 644.16, Size: 5332483.00, Fund: 260111
+2013-01-04, BUY EXECUTED, ref:240, Price: 0.61, Cost: 6505612.72, Comm 650.56, Size: 10647484.00, Fund: 210005
+2013-01-04, BUY EXECUTED, ref:241, Price: 0.78, Cost: 6470048.38, Comm 647.00, Size: 8305582.00, Fund: 519672
+2013-01-04, BUY EXECUTED, ref:242, Price: 1.01, Cost: 6425262.71, Comm 642.53, Size: 6336551.00, Fund: 020015
+2013-01-04, BUY EXECUTED, ref:243, Price: 1.36, Cost: 6454714.69, Comm 645.47, Size: 4735320.00, Fund: 180013
+--------------2013-12-31 为调仓日----------
+long_list ['166006', '110025', '483003', '580003', '240022', '481006', '375010', '730002', '519995', '260112', '050010', '050201', '164205', '450009', '519712', '202005', '360016', '398041', '090019', '580006']
+sell_fund ['560002', '020003', '560003', '160212', '210008', '163818', '570007', '519021', '377010', '410003', '410001', '710001', '630002', '260108', '210003', '260111', '210005', '519672', '020015', '180013']
+-----------对不再持有的基金进行平仓--------------
+-----------买入此次调仓期的基金--------------
+2014-01-02, SELL EXECUTED, ref:244, Price: 1.37, Cost: 6470515.87, Comm 682.78, Size: -4989602.00, Fund: 560002
+2014-01-02, SELL EXECUTED, ref:245, Price: 3.56, Cost: 6477785.01, Comm 680.42, Size: -1908599.00, Fund: 020003
+2014-01-02, SELL EXECUTED, ref:246, Price: 0.81, Cost: 6464169.72, Comm 751.96, Size: -9331846.00, Fund: 560003
+2014-01-02, SELL EXECUTED, ref:247, Price: 0.93, Cost: 6461180.82, Comm 782.94, Size: -8445988.00, Fund: 160212
+2014-01-02, SELL EXECUTED, ref:248, Price: 1.00, Cost: 6467795.43, Comm 731.45, Size: -7343092.00, Fund: 210008
+2014-01-02, SELL EXECUTED, ref:249, Price: 1.07, Cost: 6474302.64, Comm 734.90, Size: -6887556.00, Fund: 163818
+2014-01-02, SELL EXECUTED, ref:250, Price: 0.85, Cost: 6450295.29, Comm 762.06, Size: -8933927.00, Fund: 570007
+2014-01-02, SELL EXECUTED, ref:251, Price: 2.00, Cost: 6464807.41, Comm 753.91, Size: -3769567.00, Fund: 519021
+2014-01-02, SELL EXECUTED, ref:252, Price: 4.25, Cost: 6431078.28, Comm 688.67, Size: -1621471.00, Fund: 377010
+2014-01-02, SELL EXECUTED, ref:253, Price: 0.90, Cost: 6511542.23, Comm 744.24, Size: -8288623.00, Fund: 410003
+2014-01-02, SELL EXECUTED, ref:254, Price: 1.92, Cost: 6453572.54, Comm 787.61, Size: -4098287.00, Fund: 410001
+2014-01-02, SELL EXECUTED, ref:255, Price: 1.03, Cost: 6576933.57, Comm 741.68, Size: -7190263.00, Fund: 710001
+2014-01-02, SELL EXECUTED, ref:256, Price: 2.36, Cost: 6654133.38, Comm 819.96, Size: -3478824.00, Fund: 630002
+2014-01-02, SELL EXECUTED, ref:257, Price: 2.11, Cost: 6478579.58, Comm 691.44, Size: -3276975.00, Fund: 260108
+2014-01-02, SELL EXECUTED, ref:258, Price: 0.82, Cost: 6469678.73, Comm 736.46, Size: -9030819.00, Fund: 210003
+2014-01-02, SELL EXECUTED, ref:259, Price: 1.42, Cost: 6441639.46, Comm 755.61, Size: -5332483.00, Fund: 260111
+2014-01-02, SELL EXECUTED, ref:260, Price: 0.68, Cost: 6505612.72, Comm 728.29, Size: -10647484.00, Fund: 210005
+2014-01-02, SELL EXECUTED, ref:261, Price: 1.08, Cost: 6470048.38, Comm 894.51, Size: -8305582.00, Fund: 519672
+2014-01-02, SELL EXECUTED, ref:262, Price: 1.36, Cost: 6425262.71, Comm 863.67, Size: -6336551.00, Fund: 020015
+2014-01-02, SELL EXECUTED, ref:263, Price: 1.56, Cost: 6454714.69, Comm 739.51, Size: -4735320.00, Fund: 180013
+2014-01-02, BUY EXECUTED, ref:264, Price: 0.78, Cost: 7371755.19, Comm 737.18, Size: 9474046.00, Fund: 166006
+2014-01-02, BUY EXECUTED, ref:265, Price: 0.64, Cost: 7357211.85, Comm 735.72, Size: 11424242.00, Fund: 110025
+2014-01-02, BUY EXECUTED, ref:266, Price: 1.61, Cost: 7437271.06, Comm 743.73, Size: 4605977.00, Fund: 483003
+2014-01-02, BUY EXECUTED, ref:267, Price: 0.61, Cost: 7501893.54, Comm 750.19, Size: 12280068.00, Fund: 580003
+2014-01-02, BUY EXECUTED, ref:268, Price: 0.75, Cost: 7367132.68, Comm 736.71, Size: 9770733.00, Fund: 240022
+2014-01-02, BUY EXECUTED, ref:269, Price: 0.77, Cost: 7369392.48, Comm 736.94, Size: 9553270.00, Fund: 481006
+2014-01-02, BUY EXECUTED, ref:270, Price: 4.57, Cost: 7449731.42, Comm 744.97, Size: 1630959.00, Fund: 375010
+2014-01-02, BUY EXECUTED, ref:271, Price: 0.89, Cost: 7434082.12, Comm 743.41, Size: 8324840.00, Fund: 730002
+2014-01-02, BUY EXECUTED, ref:272, Price: 1.74, Cost: 7392644.86, Comm 739.26, Size: 4244987.00, Fund: 519995
+2014-01-02, BUY EXECUTED, ref:273, Price: 1.03, Cost: 7382625.44, Comm 738.26, Size: 7188535.00, Fund: 260112
+2014-01-02, BUY EXECUTED, ref:274, Price: 1.29, Cost: 7402767.12, Comm 740.28, Size: 5747490.00, Fund: 050010
+2014-01-02, BUY EXECUTED, ref:275, Price: 2.06, Cost: 7425756.73, Comm 742.58, Size: 3606487.00, Fund: 050201
+2014-01-02, BUY EXECUTED, ref:276, Price: 0.65, Cost: 7402838.29, Comm 740.28, Size: 11459502.00, Fund: 164205
+2014-01-02, BUY EXECUTED, ref:277, Price: 0.97, Cost: 7433452.11, Comm 743.35, Size: 7695085.00, Fund: 450009
+2014-01-02, BUY EXECUTED, ref:278, Price: 1.02, Cost: 7440389.29, Comm 744.04, Size: 7316017.00, Fund: 519712
+2014-01-02, BUY EXECUTED, ref:279, Price: 0.85, Cost: 7379849.34, Comm 737.98, Size: 8661795.00, Fund: 202005
+2014-01-02, BUY EXECUTED, ref:280, Price: 1.10, Cost: 7466371.35, Comm 746.64, Size: 6769149.00, Fund: 360016
+2014-01-02, BUY EXECUTED, ref:281, Price: 0.90, Cost: 7409200.22, Comm 740.92, Size: 8278436.00, Fund: 398041
+2014-01-02, BUY EXECUTED, ref:282, Price: 0.99, Cost: 7433272.57, Comm 743.33, Size: 7515948.00, Fund: 090019
+2014-01-02, BUY EXECUTED, ref:283, Price: 0.93, Cost: 7482318.91, Comm 748.23, Size: 8080258.00, Fund: 580006
+--------------2014-12-31 为调仓日----------
+long_list ['660010', '377020', '270008', '540009', '370027', '378010', '090020', '377240', '110023', '519185', '161616', '110005', '377010', '161610', '000117', '100056', '110015', '260115', '660006', '519688']
+sell_fund ['166006', '110025', '483003', '580003', '240022', '481006', '375010', '730002', '519995', '260112', '050010', '050201', '164205', '450009', '519712', '202005', '360016', '398041', '090019', '580006']
+-----------对不再持有的基金进行平仓--------------
+-----------买入此次调仓期的基金--------------
+2015-01-05, SELL EXECUTED, ref:284, Price: 0.91, Cost: 7371755.19, Comm 865.17, Size: -9474046.00, Fund: 166006
+2015-01-05, SELL EXECUTED, ref:285, Price: 0.89, Cost: 7357211.85, Comm 1012.19, Size: -11424242.00, Fund: 110025
+2015-01-05, SELL EXECUTED, ref:286, Price: 1.74, Cost: 7437271.06, Comm 803.65, Size: -4605977.00, Fund: 483003
+2015-01-05, SELL EXECUTED, ref:287, Price: 0.74, Cost: 7501893.54, Comm 904.06, Size: -12280068.00, Fund: 580003
+2015-01-05, SELL EXECUTED, ref:288, Price: 1.08, Cost: 7367132.68, Comm 1051.33, Size: -9770733.00, Fund: 240022
+2015-01-05, SELL EXECUTED, ref:289, Price: 0.90, Cost: 7369392.48, Comm 862.76, Size: -9553270.00, Fund: 481006
+2015-01-05, SELL EXECUTED, ref:290, Price: 5.00, Cost: 7449731.42, Comm 815.48, Size: -1630959.00, Fund: 375010
+2015-01-05, SELL EXECUTED, ref:291, Price: 1.16, Cost: 7434082.12, Comm 964.85, Size: -8324840.00, Fund: 730002
+2015-01-05, SELL EXECUTED, ref:292, Price: 2.52, Cost: 7392644.86, Comm 1069.18, Size: -4244987.00, Fund: 519995
+2015-01-05, SELL EXECUTED, ref:293, Price: 1.26, Cost: 7382625.44, Comm 904.32, Size: -7188535.00, Fund: 260112
+2015-01-05, SELL EXECUTED, ref:294, Price: 1.90, Cost: 7402767.12, Comm 1090.30, Size: -5747490.00, Fund: 050010
+2015-01-05, SELL EXECUTED, ref:295, Price: 2.22, Cost: 7425756.73, Comm 799.92, Size: -3606487.00, Fund: 050201
+2015-01-05, SELL EXECUTED, ref:296, Price: 0.90, Cost: 7402838.29, Comm 1034.79, Size: -11459502.00, Fund: 164205
+2015-01-05, SELL EXECUTED, ref:297, Price: 1.31, Cost: 7433452.11, Comm 1010.36, Size: -7695085.00, Fund: 450009
+2015-01-05, SELL EXECUTED, ref:298, Price: 1.69, Cost: 7440389.29, Comm 1234.21, Size: -7316017.00, Fund: 519712
+2015-01-05, SELL EXECUTED, ref:299, Price: 1.40, Cost: 7379849.34, Comm 1208.75, Size: -8661795.00, Fund: 202005
+2015-01-05, SELL EXECUTED, ref:300, Price: 1.47, Cost: 7466371.35, Comm 993.71, Size: -6769149.00, Fund: 360016
+2015-01-05, SELL EXECUTED, ref:301, Price: 1.08, Cost: 7409200.22, Comm 891.59, Size: -8278436.00, Fund: 398041
+2015-01-05, SELL EXECUTED, ref:302, Price: 1.27, Cost: 7433272.57, Comm 951.52, Size: -7515948.00, Fund: 090019
+2015-01-05, SELL EXECUTED, ref:303, Price: 1.26, Cost: 7482318.91, Comm 1015.69, Size: -8080258.00, Fund: 580006
+2015-01-05, BUY EXECUTED, ref:304, Price: 0.79, Cost: 9342771.52, Comm 934.28, Size: 11811342.00, Fund: 660010
+2015-01-05, BUY EXECUTED, ref:305, Price: 1.40, Cost: 9603065.00, Comm 960.31, Size: 6844665.00, Fund: 377020
+2015-01-05, BUY EXECUTED, ref:306, Price: 2.12, Cost: 9681052.06, Comm 968.11, Size: 4562230.00, Fund: 270008
+2015-01-05, BUY EXECUTED, ref:307, Price: 0.88, Cost: 9488084.33, Comm 948.81, Size: 10841047.00, Fund: 540009
+2015-01-05, BUY EXECUTED, ref:308, Price: 1.10, Cost: 9601856.40, Comm 960.19, Size: 8736903.00, Fund: 370027
+2015-01-05, BUY EXECUTED, ref:309, Price: 2.15, Cost: 9466905.06, Comm 946.69, Size: 4400960.00, Fund: 378010
+2015-01-05, BUY EXECUTED, ref:310, Price: 0.98, Cost: 9433129.81, Comm 943.31, Size: 9645327.00, Fund: 090020
+2015-01-05, BUY EXECUTED, ref:311, Price: 1.59, Cost: 9601303.01, Comm 960.13, Size: 6053785.00, Fund: 377240
+2015-01-05, BUY EXECUTED, ref:312, Price: 1.27, Cost: 9522095.05, Comm 952.21, Size: 7503621.00, Fund: 110023
+2015-01-05, BUY EXECUTED, ref:313, Price: 1.14, Cost: 9635913.96, Comm 963.59, Size: 8439231.00, Fund: 519185
+2015-01-05, BUY EXECUTED, ref:314, Price: 1.43, Cost: 9468710.33, Comm 946.87, Size: 6644709.00, Fund: 161616
+2015-01-05, BUY EXECUTED, ref:315, Price: 4.24, Cost: 9563888.30, Comm 956.39, Size: 2257764.00, Fund: 110005
+2015-01-05, BUY EXECUTED, ref:316, Price: 4.21, Cost: 9475329.70, Comm 947.53, Size: 2248269.00, Fund: 377010
+2015-01-05, BUY EXECUTED, ref:317, Price: 2.24, Cost: 9419974.75, Comm 942.00, Size: 4209104.00, Fund: 161610
+2015-01-05, BUY EXECUTED, ref:318, Price: 1.02, Cost: 9527579.07, Comm 952.76, Size: 9359115.00, Fund: 000117
+2015-01-05, BUY EXECUTED, ref:319, Price: 1.15, Cost: 9307615.69, Comm 930.76, Size: 8128922.00, Fund: 100056
+2015-01-05, BUY EXECUTED, ref:320, Price: 1.48, Cost: 9651046.09, Comm 965.10, Size: 6516574.00, Fund: 110015
+2015-01-05, BUY EXECUTED, ref:321, Price: 1.15, Cost: 9587336.02, Comm 958.73, Size: 8351338.00, Fund: 260115
+2015-01-05, BUY EXECUTED, ref:322, Price: 0.97, Cost: 9624691.87, Comm 962.47, Size: 9916229.00, Fund: 660006
+2015-01-05, BUY EXECUTED, ref:323, Price: 2.96, Cost: 9511579.41, Comm 951.16, Size: 3215218.00, Fund: 519688
+--------------2015-12-31 为调仓日----------
+long_list ['519033', '000828', '080015', '519013', '671010', '162207', '620006', '110025', '200012', '240022', '050201', '000991', '519025', '540007', '481008', '080007', '001008', '166007', '481006', '000761']
+sell_fund ['660010', '377020', '270008', '540009', '370027', '378010', '090020', '377240', '110023', '519185', '161616', '110005', '377010', '161610', '000117', '100056', '110015', '260115', '660006', '519688']
+-----------对不再持有的基金进行平仓--------------
+-----------买入此次调仓期的基金--------------
+2016-01-04, SELL EXECUTED, ref:324, Price: 0.83, Cost: 9342771.52, Comm 982.70, Size: -11811342.00, Fund: 660010
+2016-01-04, SELL EXECUTED, ref:325, Price: 1.69, Cost: 9603065.00, Comm 1157.71, Size: -6844665.00, Fund: 377020
+2016-01-04, SELL EXECUTED, ref:326, Price: 3.16, Cost: 9681052.06, Comm 1442.12, Size: -4562230.00, Fund: 270008
+2016-01-04, SELL EXECUTED, ref:327, Price: 0.96, Cost: 9488084.33, Comm 1039.22, Size: -10841047.00, Fund: 540009
+2016-01-04, SELL EXECUTED, ref:328, Price: 1.68, Cost: 9601856.40, Comm 1464.30, Size: -8736903.00, Fund: 370027
+2016-01-04, SELL EXECUTED, ref:329, Price: 2.23, Cost: 9466905.06, Comm 982.51, Size: -4400960.00, Fund: 378010
+2016-01-04, SELL EXECUTED, ref:330, Price: 1.14, Cost: 9433129.81, Comm 1103.43, Size: -9645327.00, Fund: 090020
+2016-01-04, SELL EXECUTED, ref:331, Price: 2.37, Cost: 9601303.01, Comm 1436.56, Size: -6053785.00, Fund: 377240
+2016-01-04, SELL EXECUTED, ref:332, Price: 1.56, Cost: 9522095.05, Comm 1168.31, Size: -7503621.00, Fund: 110023
+2016-01-04, SELL EXECUTED, ref:333, Price: 1.91, Cost: 9635913.96, Comm 1613.24, Size: -8439231.00, Fund: 519185
+2016-01-04, SELL EXECUTED, ref:334, Price: 1.82, Cost: 9468710.33, Comm 1212.66, Size: -6644709.00, Fund: 161616
+2016-01-04, SELL EXECUTED, ref:335, Price: 4.52, Cost: 9563888.30, Comm 1019.85, Size: -2257764.00, Fund: 110005
+2016-01-04, SELL EXECUTED, ref:336, Price: 5.14, Cost: 9475329.70, Comm 1156.44, Size: -2248269.00, Fund: 377010
+2016-01-04, SELL EXECUTED, ref:337, Price: 3.30, Cost: 9419974.75, Comm 1387.32, Size: -4209104.00, Fund: 161610
+2016-01-04, SELL EXECUTED, ref:338, Price: 1.60, Cost: 9527579.07, Comm 1498.39, Size: -9359115.00, Fund: 000117
+2016-01-04, SELL EXECUTED, ref:339, Price: 2.79, Cost: 9307615.69, Comm 2267.97, Size: -8128922.00, Fund: 100056
+2016-01-04, SELL EXECUTED, ref:340, Price: 2.17, Cost: 9651046.09, Comm 1416.05, Size: -6516574.00, Fund: 110015
+2016-01-04, SELL EXECUTED, ref:341, Price: 1.67, Cost: 9587336.02, Comm 1396.34, Size: -8351338.00, Fund: 260115
+2016-01-04, SELL EXECUTED, ref:342, Price: 1.02, Cost: 9624691.87, Comm 1016.22, Size: -9916229.00, Fund: 660006
+2016-01-04, SELL EXECUTED, ref:343, Price: 3.30, Cost: 9511579.41, Comm 1060.70, Size: -3215218.00, Fund: 519688
+2016-01-04, BUY EXECUTED, ref:344, Price: 1.84, Cost: 13045339.98, Comm 1304.53, Size: 7105305.00, Fund: 519033
+2016-01-04, BUY EXECUTED, ref:345, Price: 1.13, Cost: 13022364.37, Comm 1302.24, Size: 11493702.00, Fund: 000828
+2016-01-04, BUY EXECUTED, ref:346, Price: 1.06, Cost: 12776319.13, Comm 1277.63, Size: 12075916.00, Fund: 080015
+2016-01-04, BUY EXECUTED, ref:347, Price: 1.92, Cost: 13341281.71, Comm 1334.13, Size: 6937744.00, Fund: 519013
+2016-01-04, BUY EXECUTED, ref:348, Price: 0.86, Cost: 13099190.40, Comm 1309.92, Size: 15161100.00, Fund: 671010
+2016-01-04, BUY EXECUTED, ref:349, Price: 2.99, Cost: 12938276.47, Comm 1293.83, Size: 4320103.00, Fund: 162207
+2016-01-04, BUY EXECUTED, ref:350, Price: 1.06, Cost: 13237743.55, Comm 1323.77, Size: 12535742.00, Fund: 620006
+2016-01-04, BUY EXECUTED, ref:351, Price: 0.79, Cost: 12991410.52, Comm 1299.14, Size: 16382611.00, Fund: 110025
+2016-01-04, BUY EXECUTED, ref:352, Price: 1.08, Cost: 12657133.21, Comm 1265.71, Size: 11697905.00, Fund: 200012
+2016-01-04, BUY EXECUTED, ref:353, Price: 1.00, Cost: 12936113.59, Comm 1293.61, Size: 12910293.00, Fund: 240022
+2016-01-04, BUY EXECUTED, ref:354, Price: 2.18, Cost: 13565215.73, Comm 1356.52, Size: 6231151.00, Fund: 050201
+2016-01-04, BUY EXECUTED, ref:355, Price: 0.93, Cost: 12729548.61, Comm 1272.95, Size: 13717186.00, Fund: 000991
+2016-01-04, BUY EXECUTED, ref:356, Price: 1.41, Cost: 13014118.60, Comm 1301.41, Size: 9236422.00, Fund: 519025
+2016-01-04, BUY EXECUTED, ref:357, Price: 1.18, Cost: 12779412.68, Comm 1277.94, Size: 10787956.00, Fund: 540007
+2016-01-04, BUY EXECUTED, ref:358, Price: 1.56, Cost: 13153261.48, Comm 1315.33, Size: 8420782.00, Fund: 481008
+2016-01-04, BUY EXECUTED, ref:359, Price: 1.35, Cost: 12779286.24, Comm 1277.93, Size: 9438173.00, Fund: 080007
+2016-01-04, BUY EXECUTED, ref:360, Price: 0.97, Cost: 12822290.32, Comm 1282.23, Size: 13218856.00, Fund: 001008
+2016-01-04, BUY EXECUTED, ref:361, Price: 1.25, Cost: 12924761.67, Comm 1292.48, Size: 10369674.00, Fund: 166007
+2016-01-04, BUY EXECUTED, ref:362, Price: 0.90, Cost: 12958337.03, Comm 1295.83, Size: 14380576.00, Fund: 481006
+2016-01-04, BUY EXECUTED, ref:363, Price: 1.15, Cost: 12706121.11, Comm 1270.61, Size: 11097049.00, Fund: 000761
+--------------2016-12-31 为调仓日----------
+long_list ['630002', '001409', '450004', '110002', '161611', '080007', '040005', '000893', '161601', '000057', '162214', '000996', '257050', '290002', '000220', '080012', '161818', '519678', '590008', '206002']
+sell_fund ['519033', '000828', '080015', '519013', '671010', '162207', '620006', '110025', '200012', '240022', '050201', '000991', '519025', '540007', '481008', '001008', '166007', '481006', '000761']
+-----------对不再持有的基金进行平仓--------------
+-----------买入此次调仓期的基金--------------
+2017-01-03, SELL EXECUTED, ref:364, Price: 1.72, Cost: 13045339.98, Comm 1221.40, Size: -7105305.00, Fund: 519033
+2017-01-03, SELL EXECUTED, ref:365, Price: 1.05, Cost: 13022364.37, Comm 1202.24, Size: -11493702.00, Fund: 000828
+2017-01-03, SELL EXECUTED, ref:366, Price: 0.84, Cost: 12776319.13, Comm 1018.00, Size: -12075916.00, Fund: 080015
+2017-01-03, SELL EXECUTED, ref:367, Price: 1.83, Cost: 13341281.71, Comm 1267.53, Size: -6937744.00, Fund: 519013
+2017-01-03, SELL EXECUTED, ref:368, Price: 0.86, Cost: 13099190.40, Comm 1300.82, Size: -15161100.00, Fund: 671010
+2017-01-03, SELL EXECUTED, ref:369, Price: 2.70, Cost: 12938276.47, Comm 1166.77, Size: -4320103.00, Fund: 162207
+2017-01-03, SELL EXECUTED, ref:370, Price: 0.87, Cost: 13237743.55, Comm 1091.86, Size: -12535742.00, Fund: 620006
+2017-01-03, SELL EXECUTED, ref:371, Price: 0.97, Cost: 12991410.52, Comm 1587.48, Size: -16382611.00, Fund: 110025
+2017-01-03, SELL EXECUTED, ref:372, Price: 1.17, Cost: 12657133.21, Comm 1370.99, Size: -11697905.00, Fund: 200012
+2017-01-03, SELL EXECUTED, ref:373, Price: 1.25, Cost: 12936113.59, Comm 1620.24, Size: -12910293.00, Fund: 240022
+2017-01-03, SELL EXECUTED, ref:374, Price: 2.14, Cost: 13565215.73, Comm 1331.60, Size: -6231151.00, Fund: 050201
+2017-01-03, SELL EXECUTED, ref:375, Price: 1.00, Cost: 12729548.61, Comm 1371.72, Size: -13717186.00, Fund: 000991
+2017-01-03, SELL EXECUTED, ref:376, Price: 1.33, Cost: 13014118.60, Comm 1232.14, Size: -9236422.00, Fund: 519025
+2017-01-03, SELL EXECUTED, ref:377, Price: 1.15, Cost: 12779412.68, Comm 1245.15, Size: -10787956.00, Fund: 540007
+2017-01-03, SELL EXECUTED, ref:378, Price: 1.56, Cost: 13153261.48, Comm 1312.80, Size: -8420782.00, Fund: 481008
+2017-01-03, SELL EXECUTED, ref:379, Price: 0.89, Cost: 12822290.32, Comm 1175.16, Size: -13218856.00, Fund: 001008
+2017-01-03, SELL EXECUTED, ref:380, Price: 1.23, Cost: 12924761.67, Comm 1276.92, Size: -10369674.00, Fund: 166007
+2017-01-03, SELL EXECUTED, ref:381, Price: 0.82, Cost: 12958337.03, Comm 1186.40, Size: -14380576.00, Fund: 481006
+2017-01-03, SELL EXECUTED, ref:382, Price: 1.08, Cost: 12706121.11, Comm 1195.15, Size: -11097049.00, Fund: 000761
+2017-01-03, BUY EXECUTED, ref:383, Price: 4.07, Cost: 12392225.01, Comm 1239.22, Size: 3043352.00, Fund: 630002
+2017-01-03, BUY EXECUTED, ref:384, Price: 0.46, Cost: 12379442.76, Comm 1237.94, Size: 26853455.00, Fund: 001409
+2017-01-03, BUY EXECUTED, ref:385, Price: 1.45, Cost: 12422396.57, Comm 1242.24, Size: 8590869.00, Fund: 450004
+2017-01-03, BUY EXECUTED, ref:386, Price: 4.76, Cost: 12402907.07, Comm 1240.29, Size: 2607296.00, Fund: 110002
+2017-01-03, BUY EXECUTED, ref:387, Price: 1.02, Cost: 12464650.24, Comm 1246.47, Size: 12172510.00, Fund: 161611
+2017-01-03, BUY EXECUTED, ref:388, Price: 0.93, Cost: 3718910.56, Comm 371.89, Size: 4003133.00, Fund: 080007
+2017-01-03, BUY EXECUTED, ref:389, Price: 3.94, Cost: 12511574.25, Comm 1251.16, Size: 3176252.00, Fund: 040005
+2017-01-03, BUY EXECUTED, ref:390, Price: 0.82, Cost: 12379442.16, Comm 1237.94, Size: 15170885.00, Fund: 000893
+2017-01-03, BUY EXECUTED, ref:391, Price: 3.11, Cost: 12408585.74, Comm 1240.86, Size: 3992338.00, Fund: 161601
+2017-01-03, BUY EXECUTED, ref:392, Price: 1.30, Cost: 12485167.03, Comm 1248.52, Size: 9611368.00, Fund: 000057
+2017-01-03, BUY EXECUTED, ref:393, Price: 0.78, Cost: 12459309.72, Comm 1245.93, Size: 15973474.00, Fund: 162214
+2017-01-03, BUY EXECUTED, ref:394, Price: 0.81, Cost: 12564440.16, Comm 1256.44, Size: 15416491.00, Fund: 000996
+2017-01-03, BUY EXECUTED, ref:395, Price: 1.17, Cost: 12326764.32, Comm 1232.68, Size: 10535696.00, Fund: 257050
+2017-01-03, BUY EXECUTED, ref:396, Price: 2.43, Cost: 12416813.64, Comm 1241.68, Size: 5119280.00, Fund: 290002
+2017-01-03, BUY EXECUTED, ref:397, Price: 1.81, Cost: 12531506.76, Comm 1253.15, Size: 6912028.00, Fund: 000220
+2017-01-03, BUY EXECUTED, ref:398, Price: 2.67, Cost: 12449328.96, Comm 1244.93, Size: 4659180.00, Fund: 080012
+2017-01-03, BUY EXECUTED, ref:399, Price: 1.15, Cost: 12498893.16, Comm 1249.89, Size: 10859160.00, Fund: 161818
+2017-01-03, BUY EXECUTED, ref:400, Price: 1.41, Cost: 12397077.40, Comm 1239.71, Size: 8817267.00, Fund: 519678
+2017-01-03, BUY EXECUTED, ref:401, Price: 4.51, Cost: 12456708.01, Comm 1245.67, Size: 2759572.00, Fund: 590008
+2017-01-03, BUY EXECUTED, ref:402, Price: 1.18, Cost: 12316867.49, Comm 1231.69, Size: 10429185.00, Fund: 206002
+--------------2017-12-31 为调仓日----------
+long_list ['002174', '002305', '590008', '620004', '001349', '001723', '233009', '519698', '001614', '519975', '162107', '000800', '000471', '240004', '160512', '630011', '001496', '000209', '519983', '000061']
+sell_fund ['630002', '001409', '450004', '110002', '161611', '080007', '040005', '000893', '161601', '000057', '162214', '000996', '257050', '290002', '000220', '080012', '161818', '519678', '206002']
+-----------对不再持有的基金进行平仓--------------
+-----------买入此次调仓期的基金--------------
+2018-01-02, SELL EXECUTED, ref:403, Price: 4.02, Cost: 12392225.01, Comm 1224.19, Size: -3043352.00, Fund: 630002
+2018-01-02, SELL EXECUTED, ref:404, Price: 0.41, Cost: 12379442.76, Comm 1098.31, Size: -26853455.00, Fund: 001409
+2018-01-02, SELL EXECUTED, ref:405, Price: 1.69, Cost: 12422396.57, Comm 1449.28, Size: -8590869.00, Fund: 450004
+2018-01-02, SELL EXECUTED, ref:406, Price: 5.36, Cost: 12402907.07, Comm 1396.47, Size: -2607296.00, Fund: 110002
+2018-01-02, SELL EXECUTED, ref:407, Price: 1.09, Cost: 12464650.24, Comm 1323.15, Size: -12172510.00, Fund: 161611
+2018-01-02, SELL EXECUTED, ref:408, Price: 1.10, Cost: 16498196.80, Comm 1479.89, Size: -13441306.00, Fund: 080007
+2018-01-02, SELL EXECUTED, ref:409, Price: 4.70, Cost: 12511574.25, Comm 1491.57, Size: -3176252.00, Fund: 040005
+2018-01-02, SELL EXECUTED, ref:410, Price: 0.74, Cost: 12379442.16, Comm 1116.58, Size: -15170885.00, Fund: 000893
+2018-01-02, SELL EXECUTED, ref:411, Price: 3.24, Cost: 12408585.74, Comm 1292.48, Size: -3992338.00, Fund: 161601
+2018-01-02, SELL EXECUTED, ref:412, Price: 1.59, Cost: 12485167.03, Comm 1524.36, Size: -9611368.00, Fund: 000057
+2018-01-02, SELL EXECUTED, ref:413, Price: 1.04, Cost: 12459309.72, Comm 1669.23, Size: -15973474.00, Fund: 162214
+2018-01-02, SELL EXECUTED, ref:414, Price: 0.85, Cost: 12564440.16, Comm 1307.32, Size: -15416491.00, Fund: 000996
+2018-01-02, SELL EXECUTED, ref:415, Price: 1.49, Cost: 12326764.32, Comm 1571.08, Size: -10535696.00, Fund: 257050
+2018-01-02, SELL EXECUTED, ref:416, Price: 2.47, Cost: 12416813.64, Comm 1266.97, Size: -5119280.00, Fund: 290002
+2018-01-02, SELL EXECUTED, ref:417, Price: 1.80, Cost: 12531506.76, Comm 1244.17, Size: -6912028.00, Fund: 000220
+2018-01-02, SELL EXECUTED, ref:418, Price: 2.66, Cost: 12449328.96, Comm 1238.41, Size: -4659180.00, Fund: 080012
+2018-01-02, SELL EXECUTED, ref:419, Price: 1.39, Cost: 12498893.16, Comm 1503.99, Size: -10859160.00, Fund: 161818
+2018-01-02, SELL EXECUTED, ref:420, Price: 1.73, Cost: 12397077.40, Comm 1521.86, Size: -8817267.00, Fund: 519678
+2018-01-02, SELL EXECUTED, ref:421, Price: 1.46, Cost: 12316867.49, Comm 1521.62, Size: -10429185.00, Fund: 206002
+2018-01-02, BUY EXECUTED, ref:422, Price: 0.75, Cost: 13528604.53, Comm 1352.86, Size: 17978212.00, Fund: 002174
+2018-01-02, BUY EXECUTED, ref:423, Price: 0.83, Cost: 13531135.59, Comm 1353.11, Size: 16302573.00, Fund: 002305
+2018-01-02, BUY EXECUTED, ref:424, Price: 3.24, Cost: 4546389.16, Comm 454.64, Size: 1404507.00, Fund: 590008
+2018-01-02, BUY EXECUTED, ref:425, Price: 0.72, Cost: 13507846.20, Comm 1350.78, Size: 18631512.00, Fund: 620004
+2018-01-02, BUY EXECUTED, ref:426, Price: 0.66, Cost: 13515606.90, Comm 1351.56, Size: 20571700.00, Fund: 001349
+2018-01-02, BUY EXECUTED, ref:427, Price: 0.74, Cost: 13524952.57, Comm 1352.50, Size: 18326494.00, Fund: 001723
+2018-01-02, BUY EXECUTED, ref:428, Price: 2.32, Cost: 13520585.79, Comm 1352.06, Size: 5817808.00, Fund: 233009
+2018-01-02, BUY EXECUTED, ref:429, Price: 1.55, Cost: 13519032.25, Comm 1351.90, Size: 8746220.00, Fund: 519698
+2018-01-02, BUY EXECUTED, ref:430, Price: 0.85, Cost: 13640803.08, Comm 1364.08, Size: 16083956.00, Fund: 001614
+2018-01-02, BUY EXECUTED, ref:431, Price: 1.34, Cost: 13616086.22, Comm 1361.61, Size: 10153681.00, Fund: 519975
+2018-01-02, BUY EXECUTED, ref:432, Price: 0.85, Cost: 13556356.23, Comm 1355.64, Size: 15978732.00, Fund: 162107
+2018-01-02, BUY EXECUTED, ref:433, Price: 0.83, Cost: 13547023.96, Comm 1354.70, Size: 16243434.00, Fund: 000800
+2018-01-02, BUY EXECUTED, ref:434, Price: 2.27, Cost: 13540642.19, Comm 1354.06, Size: 5962414.00, Fund: 000471
+2018-01-02, BUY EXECUTED, ref:435, Price: 3.96, Cost: 13471107.61, Comm 1347.11, Size: 3404546.00, Fund: 240004
+2018-01-02, BUY EXECUTED, ref:436, Price: 2.26, Cost: 13638317.32, Comm 1363.83, Size: 6029318.00, Fund: 160512
+2018-01-02, BUY EXECUTED, ref:437, Price: 2.27, Cost: 13510830.12, Comm 1351.08, Size: 5962414.00, Fund: 630011
+2018-01-02, BUY EXECUTED, ref:438, Price: 0.77, Cost: 13665545.37, Comm 1366.55, Size: 17863458.00, Fund: 001496
+2018-01-02, BUY EXECUTED, ref:439, Price: 1.47, Cost: 13628679.65, Comm 1362.87, Size: 9302853.00, Fund: 000209
+2018-01-02, BUY EXECUTED, ref:440, Price: 2.42, Cost: 13653815.91, Comm 1365.38, Size: 5653754.00, Fund: 519983
+2018-01-02, BUY EXECUTED, ref:441, Price: 0.87, Cost: 13417932.26, Comm 1341.79, Size: 15387537.00, Fund: 000061
+--------------2018-12-31 为调仓日----------
+long_list ['005521', '005381', '005396', '005502', '005259', '005311', '005104', '004926', '005041', '001349', '005328', '004698', '000471', '000940', '210004', '000800', '005409', '000793', '005250', '510081']
+sell_fund ['002174', '002305', '590008', '620004', '001723', '233009', '519698', '001614', '519975', '162107', '240004', '160512', '630011', '001496', '000209', '519983', '000061']
+-----------对不再持有的基金进行平仓--------------
+-----------买入此次调仓期的基金--------------
+2019-01-02, SELL EXECUTED, ref:442, Price: 0.49, Cost: 13528604.53, Comm 889.20, Size: -17978212.00, Fund: 002174
+2019-01-02, SELL EXECUTED, ref:443, Price: 0.59, Cost: 13531135.59, Comm 960.22, Size: -16302573.00, Fund: 002305
+2019-01-02, SELL EXECUTED, ref:444, Price: 2.80, Cost: 17003097.17, Comm 1165.11, Size: -4164079.00, Fund: 590008
+2019-01-02, SELL EXECUTED, ref:445, Price: 0.51, Cost: 13507846.20, Comm 944.62, Size: -18631512.00, Fund: 620004
+2019-01-02, SELL EXECUTED, ref:446, Price: 0.48, Cost: 13524952.57, Comm 876.01, Size: -18326494.00, Fund: 001723
+2019-01-02, SELL EXECUTED, ref:447, Price: 1.91, Cost: 13520585.79, Comm 1113.53, Size: -5817808.00, Fund: 233009
+2019-01-02, SELL EXECUTED, ref:448, Price: 1.41, Cost: 13519032.25, Comm 1236.45, Size: -8746220.00, Fund: 519698
+2019-01-02, SELL EXECUTED, ref:449, Price: 0.68, Cost: 13640803.08, Comm 1095.16, Size: -16083956.00, Fund: 001614
+2019-01-02, SELL EXECUTED, ref:450, Price: 1.03, Cost: 13616086.22, Comm 1044.81, Size: -10153681.00, Fund: 519975
+2019-01-02, SELL EXECUTED, ref:451, Price: 0.59, Cost: 13556356.23, Comm 935.71, Size: -15978732.00, Fund: 162107
+2019-01-02, SELL EXECUTED, ref:452, Price: 3.59, Cost: 13471107.61, Comm 1223.12, Size: -3404546.00, Fund: 240004
+2019-01-02, SELL EXECUTED, ref:453, Price: 1.50, Cost: 13638317.32, Comm 907.41, Size: -6029318.00, Fund: 160512
+2019-01-02, SELL EXECUTED, ref:454, Price: 1.81, Cost: 13510830.12, Comm 1077.41, Size: -5962414.00, Fund: 630011
+2019-01-02, SELL EXECUTED, ref:455, Price: 0.58, Cost: 13665545.37, Comm 1043.23, Size: -17863458.00, Fund: 001496
+2019-01-02, SELL EXECUTED, ref:456, Price: 1.00, Cost: 13628679.65, Comm 932.15, Size: -9302853.00, Fund: 000209
+2019-01-02, SELL EXECUTED, ref:457, Price: 1.94, Cost: 13653815.91, Comm 1097.96, Size: -5653754.00, Fund: 519983
+2019-01-02, SELL EXECUTED, ref:458, Price: 0.53, Cost: 13417932.26, Comm 809.38, Size: -15387537.00, Fund: 000061
+2019-01-02, BUY EXECUTED, ref:459, Price: 0.72, Cost: 10002605.13, Comm 1000.26, Size: 13838690.00, Fund: 005521
+2019-01-02, BUY EXECUTED, ref:460, Price: 0.69, Cost: 10214843.12, Comm 1021.48, Size: 14697616.00, Fund: 005381
+2019-01-02, BUY EXECUTED, ref:461, Price: 0.79, Cost: 10080542.49, Comm 1008.05, Size: 12745660.00, Fund: 005396
+2019-01-02, BUY EXECUTED, ref:462, Price: 0.72, Cost: 10049832.14, Comm 1004.98, Size: 13965859.00, Fund: 005502
+2019-01-02, BUY EXECUTED, ref:463, Price: 0.77, Cost: 10052396.72, Comm 1005.24, Size: 13011127.00, Fund: 005259
+2019-01-02, BUY EXECUTED, ref:464, Price: 0.94, Cost: 10192239.54, Comm 1019.22, Size: 10812900.00, Fund: 005311
+2019-01-02, BUY EXECUTED, ref:465, Price: 0.71, Cost: 10129786.14, Comm 1012.98, Size: 14249242.00, Fund: 005104
+2019-01-02, BUY EXECUTED, ref:466, Price: 0.84, Cost: 10106904.48, Comm 1010.69, Size: 12000599.00, Fund: 004926
+2019-01-02, BUY EXECUTED, ref:467, Price: 0.85, Cost: 10135031.32, Comm 1013.50, Size: 11869108.00, Fund: 005041
+2019-01-02, BUY EXECUTED, ref:468, Price: 0.40, Cost: 1787592.70, Comm 178.76, Size: 4446748.00, Fund: 001349
+2019-01-02, BUY EXECUTED, ref:469, Price: 0.69, Cost: 10172138.60, Comm 1017.21, Size: 14813075.00, Fund: 005328
+2019-01-02, BUY EXECUTED, ref:470, Price: 0.75, Cost: 10209770.30, Comm 1020.98, Size: 13631202.00, Fund: 004698
+2019-01-02, BUY EXECUTED, ref:471, Price: 1.47, Cost: 1324884.31, Comm 132.49, Size: 903741.00, Fund: 000471
+2019-01-02, BUY EXECUTED, ref:472, Price: 0.92, Cost: 10105865.16, Comm 1010.59, Size: 10948933.00, Fund: 000940
+2019-01-02, BUY EXECUTED, ref:473, Price: 1.63, Cost: 10145118.06, Comm 1014.51, Size: 6231645.00, Fund: 210004
+2019-01-02, BUY EXECUTED, ref:474, Price: 0.51, Cost: 1747926.02, Comm 174.79, Size: 3413918.00, Fund: 000800
+2019-01-02, BUY EXECUTED, ref:475, Price: 0.82, Cost: 9999807.09, Comm 999.98, Size: 12180033.00, Fund: 005409
+2019-01-02, BUY EXECUTED, ref:476, Price: 0.60, Cost: 10082516.18, Comm 1008.25, Size: 16665316.00, Fund: 000793
+2019-01-02, BUY EXECUTED, ref:477, Price: 0.69, Cost: 10000391.54, Comm 1000.04, Size: 14569335.00, Fund: 005250
+2019-01-02, BUY EXECUTED, ref:478, Price: 3.15, Cost: 10149611.50, Comm 1014.96, Size: 3225068.00, Fund: 510081
+--------------2019-12-31 为调仓日----------
+long_list ['006270', '690003', '006785', '519019', '090013', '110025', '161818', '006568', '360007', '730002', '501032', '006299', '398021', '006193', '740001', '070001', '210008', '570007', '163302', '005228']
+sell_fund ['005521', '005381', '005396', '005502', '005259', '005311', '005104', '004926', '005041', '001349', '005328', '004698', '000471', '000940', '210004', '000800', '005409', '000793', '005250', '510081']
+-----------对不再持有的基金进行平仓--------------
+-----------买入此次调仓期的基金--------------
+2020-01-02, SELL EXECUTED, ref:479, Price: 1.07, Cost: 10002605.13, Comm 1477.70, Size: -13838690.00, Fund: 005521
+2020-01-02, SELL EXECUTED, ref:480, Price: 1.02, Cost: 10214843.12, Comm 1493.87, Size: -14697616.00, Fund: 005381
+2020-01-02, SELL EXECUTED, ref:481, Price: 1.04, Cost: 10080542.49, Comm 1326.06, Size: -12745660.00, Fund: 005396
+2020-01-02, SELL EXECUTED, ref:482, Price: 1.04, Cost: 10049832.14, Comm 1448.96, Size: -13965859.00, Fund: 005502
+2020-01-02, SELL EXECUTED, ref:483, Price: 1.27, Cost: 10052396.72, Comm 1652.80, Size: -13011127.00, Fund: 005259
+2020-01-02, SELL EXECUTED, ref:484, Price: 1.41, Cost: 10192239.54, Comm 1521.48, Size: -10812900.00, Fund: 005311
+2020-01-02, SELL EXECUTED, ref:485, Price: 0.89, Cost: 10129786.14, Comm 1268.47, Size: -14249242.00, Fund: 005104
+2020-01-02, SELL EXECUTED, ref:486, Price: 1.03, Cost: 10106904.48, Comm 1240.98, Size: -12000599.00, Fund: 004926
+2020-01-02, SELL EXECUTED, ref:487, Price: 1.20, Cost: 10135031.32, Comm 1428.21, Size: -11869108.00, Fund: 005041
+2020-01-02, SELL EXECUTED, ref:488, Price: 0.59, Cost: 15303199.60, Comm 1488.60, Size: -25018448.00, Fund: 001349
+2020-01-02, SELL EXECUTED, ref:489, Price: 0.99, Cost: 10172138.60, Comm 1469.31, Size: -14813075.00, Fund: 005328
+2020-01-02, SELL EXECUTED, ref:490, Price: 1.00, Cost: 10209770.30, Comm 1365.85, Size: -13631202.00, Fund: 004698
+2020-01-02, SELL EXECUTED, ref:491, Price: 2.03, Cost: 14865526.50, Comm 1392.46, Size: -6866155.00, Fund: 000471
+2020-01-02, SELL EXECUTED, ref:492, Price: 1.63, Cost: 10105865.16, Comm 1783.58, Size: -10948933.00, Fund: 000940
+2020-01-02, SELL EXECUTED, ref:493, Price: 2.02, Cost: 10145118.06, Comm 1258.79, Size: -6231645.00, Fund: 210004
+2020-01-02, SELL EXECUTED, ref:494, Price: 0.73, Cost: 15294949.97, Comm 1438.92, Size: -19657352.00, Fund: 000800
+2020-01-02, SELL EXECUTED, ref:495, Price: 1.17, Cost: 9999807.09, Comm 1420.19, Size: -12180033.00, Fund: 005409
+2020-01-02, SELL EXECUTED, ref:496, Price: 0.93, Cost: 10082516.18, Comm 1554.87, Size: -16665316.00, Fund: 000793
+2020-01-02, SELL EXECUTED, ref:497, Price: 1.13, Cost: 10000391.54, Comm 1644.00, Size: -14569335.00, Fund: 005250
+2020-01-02, SELL EXECUTED, ref:498, Price: 3.45, Cost: 10149611.50, Comm 1112.94, Size: -3225068.00, Fund: 510081
+2020-01-02, BUY EXECUTED, ref:499, Price: 0.98, Cost: 14217720.97, Comm 1421.77, Size: 14537547.00, Fund: 006270
+2020-01-02, BUY EXECUTED, ref:500, Price: 0.96, Cost: 14151442.93, Comm 1415.14, Size: 14695164.00, Fund: 690003
+2020-01-02, BUY EXECUTED, ref:501, Price: 1.03, Cost: 14150850.18, Comm 1415.09, Size: 13800322.00, Fund: 006785
+2020-01-02, BUY EXECUTED, ref:502, Price: 4.14, Cost: 14001025.90, Comm 1400.10, Size: 3385161.00, Fund: 519019
+2020-01-02, BUY EXECUTED, ref:503, Price: 2.06, Cost: 14090621.24, Comm 1409.06, Size: 6853415.00, Fund: 090013
+2020-01-02, BUY EXECUTED, ref:504, Price: 0.87, Cost: 14188464.58, Comm 1418.85, Size: 16289856.00, Fund: 110025
+2020-01-02, BUY EXECUTED, ref:505, Price: 1.03, Cost: 13979492.51, Comm 1397.95, Size: 13633209.00, Fund: 161818
+2020-01-02, BUY EXECUTED, ref:506, Price: 1.10, Cost: 14260671.90, Comm 1426.07, Size: 12998516.00, Fund: 006568
+2020-01-02, BUY EXECUTED, ref:507, Price: 1.43, Cost: 14141761.22, Comm 1414.18, Size: 9910134.00, Fund: 360007
+2020-01-02, BUY EXECUTED, ref:508, Price: 1.44, Cost: 14091333.83, Comm 1409.13, Size: 9770721.00, Fund: 730002
+2020-01-02, BUY EXECUTED, ref:509, Price: 0.77, Cost: 13984052.24, Comm 1398.41, Size: 18189454.00, Fund: 501032
+2020-01-02, BUY EXECUTED, ref:510, Price: 1.12, Cost: 14207593.68, Comm 1420.76, Size: 12676297.00, Fund: 006299
+2020-01-02, BUY EXECUTED, ref:511, Price: 1.01, Cost: 14183828.37, Comm 1418.38, Size: 14051742.00, Fund: 398021
+2020-01-02, BUY EXECUTED, ref:512, Price: 1.14, Cost: 14117975.37, Comm 1411.80, Size: 12407044.00, Fund: 006193
+2020-01-02, BUY EXECUTED, ref:513, Price: 1.95, Cost: 14025003.04, Comm 1402.50, Size: 7177586.00, Fund: 740001
+2020-01-02, BUY EXECUTED, ref:514, Price: 4.23, Cost: 13983895.54, Comm 1398.39, Size: 3308310.00, Fund: 070001
+2020-01-02, BUY EXECUTED, ref:515, Price: 1.77, Cost: 14269274.99, Comm 1426.93, Size: 8064471.00, Fund: 210008
+2020-01-02, BUY EXECUTED, ref:516, Price: 1.55, Cost: 14124430.80, Comm 1412.44, Size: 9112536.00, Fund: 570007
+2020-01-02, BUY EXECUTED, ref:517, Price: 4.04, Cost: 14028032.75, Comm 1402.80, Size: 3468079.00, Fund: 163302
+2020-01-02, BUY EXECUTED, ref:518, Price: 0.79, Cost: 14152456.12, Comm 1415.25, Size: 17948581.00, Fund: 005228
+--------------2020-12-31 为调仓日----------
+long_list ['160127', '001791', '006106', '519185', '004098', '200010', '005707', '005662', '690003', '006477', '005126', '005104', '000354', '162201', '257040', '006781', '002334', '519005', '005937', '100056']
+sell_fund ['006270', '006785', '519019', '090013', '110025', '161818', '006568', '360007', '730002', '501032', '006299', '398021', '006193', '740001', '070001', '210008', '570007', '163302', '005228']
+-----------对不再持有的基金进行平仓--------------
+-----------买入此次调仓期的基金--------------
+2021-01-04, SELL EXECUTED, ref:519, Price: 1.51, Cost: 14217720.97, Comm 2200.55, Size: -14537547.00, Fund: 006270
+2021-01-04, SELL EXECUTED, ref:520, Price: 1.22, Cost: 14150850.18, Comm 1681.43, Size: -13800322.00, Fund: 006785
+2021-01-04, SELL EXECUTED, ref:521, Price: 4.69, Cost: 14001025.90, Comm 1587.64, Size: -3385161.00, Fund: 519019
+2021-01-04, SELL EXECUTED, ref:522, Price: 2.28, Cost: 14090621.24, Comm 1561.89, Size: -6853415.00, Fund: 090013
+2021-01-04, SELL EXECUTED, ref:523, Price: 1.23, Cost: 14188464.58, Comm 2003.65, Size: -16289856.00, Fund: 110025
+2021-01-04, SELL EXECUTED, ref:524, Price: 2.04, Cost: 13979492.51, Comm 2779.54, Size: -13633209.00, Fund: 161818
+2021-01-04, SELL EXECUTED, ref:525, Price: 1.99, Cost: 14260671.90, Comm 2581.51, Size: -12998516.00, Fund: 006568
+2021-01-04, SELL EXECUTED, ref:526, Price: 1.56, Cost: 14141761.22, Comm 1546.18, Size: -9910134.00, Fund: 360007
+2021-01-04, SELL EXECUTED, ref:527, Price: 2.17, Cost: 14091333.83, Comm 2124.64, Size: -9770721.00, Fund: 730002
+2021-01-04, SELL EXECUTED, ref:528, Price: 1.17, Cost: 13984052.24, Comm 2119.07, Size: -18189454.00, Fund: 501032
+2021-01-04, SELL EXECUTED, ref:529, Price: 2.22, Cost: 14207593.68, Comm 2810.59, Size: -12676297.00, Fund: 006299
+2021-01-04, SELL EXECUTED, ref:530, Price: 1.34, Cost: 14183828.37, Comm 1885.60, Size: -14051742.00, Fund: 398021
+2021-01-04, SELL EXECUTED, ref:531, Price: 1.58, Cost: 14117975.37, Comm 1958.08, Size: -12407044.00, Fund: 006193
+2021-01-04, SELL EXECUTED, ref:532, Price: 2.31, Cost: 14025003.04, Comm 1660.89, Size: -7177586.00, Fund: 740001
+2021-01-04, SELL EXECUTED, ref:533, Price: 5.56, Cost: 13983895.54, Comm 1838.06, Size: -3308310.00, Fund: 070001
+2021-01-04, SELL EXECUTED, ref:534, Price: 3.01, Cost: 14269274.99, Comm 2425.55, Size: -8064471.00, Fund: 210008
+2021-01-04, SELL EXECUTED, ref:535, Price: 2.06, Cost: 14124430.80, Comm 1880.83, Size: -9112536.00, Fund: 570007
+2021-01-04, SELL EXECUTED, ref:536, Price: 4.91, Cost: 14028032.75, Comm 1702.51, Size: -3468079.00, Fund: 163302
+2021-01-04, SELL EXECUTED, ref:537, Price: 1.09, Cost: 14152456.12, Comm 1961.96, Size: -17948581.00, Fund: 005228
+2021-01-04, BUY EXECUTED, ref:538, Price: 1.07, Cost: 19676322.25, Comm 1967.63, Size: 18320598.00, Fund: 160127
+2021-01-04, BUY EXECUTED, ref:539, Price: 0.94, Cost: 19169686.81, Comm 1916.97, Size: 20349986.00, Fund: 001791
+2021-01-04, BUY EXECUTED, ref:540, Price: 0.99, Cost: 19361062.99, Comm 1936.11, Size: 19483811.00, Fund: 006106
+2021-01-04, BUY EXECUTED, ref:541, Price: 2.38, Cost: 19119344.86, Comm 1911.93, Size: 8047201.00, Fund: 519185
+2021-01-04, BUY EXECUTED, ref:542, Price: 1.02, Cost: 19673045.51, Comm 1967.30, Size: 19308122.00, Fund: 004098
+2021-01-04, BUY EXECUTED, ref:543, Price: 2.22, Cost: 19983458.76, Comm 1998.35, Size: 9001558.00, Fund: 200010
+2021-01-04, BUY EXECUTED, ref:544, Price: 1.14, Cost: 19607957.87, Comm 1960.80, Size: 17257488.00, Fund: 005707
+2021-01-04, BUY EXECUTED, ref:545, Price: 1.40, Cost: 18939566.98, Comm 1893.96, Size: 13545678.00, Fund: 005662
+2021-01-04, BUY EXECUTED, ref:546, Price: 1.06, Cost: 4251852.17, Comm 425.19, Size: 4014969.00, Fund: 690003
+2021-01-04, BUY EXECUTED, ref:547, Price: 1.14, Cost: 19310369.51, Comm 1931.04, Size: 16927042.00, Fund: 006477
+2021-01-04, BUY EXECUTED, ref:548, Price: 1.25, Cost: 19601196.97, Comm 1960.12, Size: 15628446.00, Fund: 005126
+2021-01-04, BUY EXECUTED, ref:549, Price: 0.97, Cost: 19414941.01, Comm 1941.49, Size: 19931158.00, Fund: 005104
+2021-01-04, BUY EXECUTED, ref:550, Price: 2.33, Cost: 19920364.83, Comm 1992.04, Size: 8538519.00, Fund: 000354
+2021-01-04, BUY EXECUTED, ref:551, Price: 4.15, Cost: 19588444.10, Comm 1958.84, Size: 4724433.00, Fund: 162201
+2021-01-04, BUY EXECUTED, ref:552, Price: 2.03, Cost: 19111625.13, Comm 1911.16, Size: 9400701.00, Fund: 257040
+2021-01-04, BUY EXECUTED, ref:553, Price: 1.20, Cost: 19402030.71, Comm 1940.20, Size: 16122678.00, Fund: 006781
+2021-01-04, BUY EXECUTED, ref:554, Price: 1.49, Cost: 19344252.17, Comm 1934.43, Size: 13002791.00, Fund: 002334
+2021-01-04, BUY EXECUTED, ref:555, Price: 3.22, Cost: 19768407.01, Comm 1976.84, Size: 6135446.00, Fund: 519005
+2021-01-04, BUY EXECUTED, ref:556, Price: 1.47, Cost: 19166863.62, Comm 1916.69, Size: 13071584.00, Fund: 005937
+2021-01-04, BUY EXECUTED, ref:557, Price: 2.87, Cost: 19550832.06, Comm 1955.08, Size: 6814511.00, Fund: 100056
+--------------2021-12-31 为调仓日----------
+long_list ['010341', '010377', '010554', '952035', '010481', '730001', '501205', '360010', '900008', '005209', '010595', '010864', '009898', '005504', '009864', '011401', '010846', '010198', '007354', '160322']
+sell_fund ['160127', '001791', '006106', '519185', '004098', '200010', '005707', '005662', '690003', '006477', '005126', '005104', '000354', '162201', '257040', '006781', '002334', '519005', '005937', '100056']
+-----------对不再持有的基金进行平仓--------------
+-----------买入此次调仓期的基金--------------
+2022-01-04, SELL EXECUTED, ref:558, Price: 0.88, Cost: 19676322.25, Comm 1606.53, Size: -18320598.00, Fund: 160127
+2022-01-04, SELL EXECUTED, ref:559, Price: 0.86, Cost: 19169686.81, Comm 1754.17, Size: -20349986.00, Fund: 001791
+2022-01-04, SELL EXECUTED, ref:560, Price: 0.89, Cost: 19361062.99, Comm 1740.49, Size: -19483811.00, Fund: 006106
+2022-01-04, SELL EXECUTED, ref:561, Price: 2.34, Cost: 19119344.86, Comm 1879.99, Size: -8047201.00, Fund: 519185
+2022-01-04, SELL EXECUTED, ref:562, Price: 0.94, Cost: 19673045.51, Comm 1818.83, Size: -19308122.00, Fund: 004098
+2022-01-04, SELL EXECUTED, ref:563, Price: 2.31, Cost: 19983458.76, Comm 2077.38, Size: -9001558.00, Fund: 200010
+2022-01-04, SELL EXECUTED, ref:564, Price: 0.93, Cost: 19607957.87, Comm 1608.74, Size: -17257488.00, Fund: 005707
+2022-01-04, SELL EXECUTED, ref:565, Price: 1.38, Cost: 18939566.98, Comm 1871.74, Size: -13545678.00, Fund: 005662
+2022-01-04, SELL EXECUTED, ref:566, Price: 1.02, Cost: 18403295.10, Comm 1906.56, Size: -18710133.00, Fund: 690003
+2022-01-04, SELL EXECUTED, ref:567, Price: 1.03, Cost: 19310369.51, Comm 1737.90, Size: -16927042.00, Fund: 006477
+2022-01-04, SELL EXECUTED, ref:568, Price: 1.37, Cost: 19601196.97, Comm 2134.06, Size: -15628446.00, Fund: 005126
+2022-01-04, SELL EXECUTED, ref:569, Price: 1.23, Cost: 19414941.01, Comm 2443.36, Size: -19931158.00, Fund: 005104
+2022-01-04, SELL EXECUTED, ref:570, Price: 2.60, Cost: 19920364.83, Comm 2221.72, Size: -8538519.00, Fund: 000354
+2022-01-04, SELL EXECUTED, ref:571, Price: 4.79, Cost: 19588444.10, Comm 2262.72, Size: -4724433.00, Fund: 162201
+2022-01-04, SELL EXECUTED, ref:572, Price: 2.08, Cost: 19111625.13, Comm 1953.47, Size: -9400701.00, Fund: 257040
+2022-01-04, SELL EXECUTED, ref:573, Price: 0.97, Cost: 19402030.71, Comm 1567.77, Size: -16122678.00, Fund: 006781
+2022-01-04, SELL EXECUTED, ref:574, Price: 1.58, Cost: 19344252.17, Comm 2057.30, Size: -13002791.00, Fund: 002334
+2022-01-04, SELL EXECUTED, ref:575, Price: 3.41, Cost: 19768407.01, Comm 2094.27, Size: -6135446.00, Fund: 519005
+2022-01-04, SELL EXECUTED, ref:576, Price: 1.48, Cost: 19166863.62, Comm 1937.34, Size: -13071584.00, Fund: 005937
+2022-01-04, SELL EXECUTED, ref:577, Price: 3.29, Cost: 19550832.06, Comm 2239.25, Size: -6814511.00, Fund: 100056
+2022-01-04, BUY EXECUTED, ref:578, Price: 0.91, Cost: 19666321.08, Comm 1966.63, Size: 21599474.00, Fund: 010341
+2022-01-04, BUY EXECUTED, ref:579, Price: 0.77, Cost: 19511680.68, Comm 1951.17, Size: 25248034.00, Fund: 010377
+2022-01-04, BUY EXECUTED, ref:580, Price: 0.79, Cost: 19605916.44, Comm 1960.59, Size: 24830188.00, Fund: 010554
+2022-01-04, BUY EXECUTED, ref:581, Price: 1.54, Cost: 19474544.47, Comm 1947.45, Size: 12644166.00, Fund: 952035
+2022-01-04, BUY EXECUTED, ref:582, Price: 0.80, Cost: 19115682.59, Comm 1911.57, Size: 24002615.00, Fund: 010481
+2022-01-04, BUY EXECUTED, ref:583, Price: 1.76, Cost: 19371057.84, Comm 1937.11, Size: 11002532.00, Fund: 730001
+2022-01-04, BUY EXECUTED, ref:584, Price: 0.75, Cost: 19368356.78, Comm 1936.84, Size: 25810710.00, Fund: 501205
+2022-01-04, BUY EXECUTED, ref:585, Price: 1.71, Cost: 19038512.24, Comm 1903.85, Size: 11150587.00, Fund: 360010
+2022-01-04, BUY EXECUTED, ref:586, Price: 1.74, Cost: 19711891.25, Comm 1971.19, Size: 11300746.00, Fund: 900008
+2022-01-04, BUY EXECUTED, ref:587, Price: 0.95, Cost: 19014529.90, Comm 1901.45, Size: 19950194.00, Fund: 005209
+2022-01-04, BUY EXECUTED, ref:588, Price: 0.83, Cost: 19115904.60, Comm 1911.59, Size: 23109169.00, Fund: 010595
+2022-01-04, BUY EXECUTED, ref:589, Price: 0.82, Cost: 19609508.98, Comm 1960.95, Size: 23786401.00, Fund: 010864
+2022-01-04, BUY EXECUTED, ref:590, Price: 0.78, Cost: 19386134.14, Comm 1938.61, Size: 24758792.00, Fund: 009898
+2022-01-04, BUY EXECUTED, ref:591, Price: 0.93, Cost: 19583876.35, Comm 1958.39, Size: 21017253.00, Fund: 005504
+2022-01-04, BUY EXECUTED, ref:592, Price: 0.80, Cost: 19373971.22, Comm 1937.40, Size: 24190250.00, Fund: 009864
+2022-01-04, BUY EXECUTED, ref:593, Price: 0.90, Cost: 19553811.89, Comm 1955.38, Size: 21615976.00, Fund: 011401
+2022-01-04, BUY EXECUTED, ref:594, Price: 0.89, Cost: 19593824.10, Comm 1959.38, Size: 21951405.00, Fund: 010846
+2022-01-04, BUY EXECUTED, ref:595, Price: 0.91, Cost: 19688364.27, Comm 1968.84, Size: 21517338.00, Fund: 010198
+2022-01-04, BUY EXECUTED, ref:596, Price: 0.79, Cost: 19678050.84, Comm 1967.81, Size: 24805308.00, Fund: 007354
+2022-01-04, BUY EXECUTED, ref:597, Price: 1.35, Cost: 19319536.42, Comm 1931.95, Size: 14265330.00, Fund: 160322
+  0%|          | 0/18 [00:00<?, ?it/s]C:\Users\ThinkPad\.conda\envs\qtconda\lib\site-packages\akshare\index\zh_stock_index_sina.py:209: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  temp_df = temp_df.append(inner_temp_df, ignore_index=True)
+100%|██████████| 18/18 [00:24<00:00,  1.34s/it]
+  0%|          | 0/16 [00:00<?, ?it/s]C:\Users\ThinkPad\.conda\envs\qtconda\lib\site-packages\akshare\index\zh_stock_index_sina.py:209: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  temp_df = temp_df.append(inner_temp_df, ignore_index=True)
+100%|██████████| 16/16 [00:18<00:00,  1.18s/it]
+--------------------策略回测完成，策略分析报告生成完毕。--------------------
