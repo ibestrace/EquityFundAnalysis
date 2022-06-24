@@ -4,6 +4,12 @@ Created on Thu Jun 23 14:55:42 2022
 
 @author: ZHANGWEI
 """
+#  Copyright (c) 2022. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#  Morbi non lorem porttitor neque feugiat blandit. Ut vitae ipsum eget quam lacinia accumsan.
+#  Etiam sed turpis ac ipsum condimentum fringilla. Maecenas magna.
+#  Proin dapibus sapien vel ante. Aliquam erat volutpat. Pellentesque sagittis ligula eget metus.
+#  Vestibulum commodo. Ut rhoncus gravida arcu.
+
 import pandas as pd
 import backtrader as bt
 import quantstats as qs
@@ -26,7 +32,7 @@ class SharpeStrategy(bt.Strategy):
         #         19    2021-12-31  005669   0.05
         #                                    等权重
         # =====================================================================
-        self.buy_fund = pd.read_pickle("data/trade_info.pkl")
+        self.buy_fund = pd.read_pickle("data/sharpe_strategy_trade_info.pkl")
         # 读取调仓日期，即每年的最后一个交易日，回测时，会在这一天下单，然后在下一个交易日，以净值申购
         self.trade_dates = pd.to_datetime(
             self.buy_fund['trade_date'].unique()).tolist()
