@@ -59,7 +59,7 @@ print("--------------------调仓列表已完成--------------------")
 
 class SortinoStrategy(bt.Strategy):
 	# =========================================================================
-	#     基于调仓表的单因子选集
+	#     基于调仓表的单因子选基
 	# =========================================================================
 	def __init__(self):
 		# =====================================================================
@@ -87,7 +87,6 @@ class SortinoStrategy(bt.Strategy):
 
 	def next(self):
 		dt = self.datas[0].datetime.date(0)  # 获取当前的回测时间点
-		# print('运行中', dt)
 		# 如果是调仓日，则进行调仓操作
 		if dt in self.trade_dates:
 			print("--------------{} 为调仓日----------".format(dt))
@@ -176,7 +175,7 @@ for fund in daily_price['fcode'].unique():
 print("-----------------------数据导入完成，开始策略回测。-----------------------")
 # 初始资金 100,000,000
 cerebro.broker.setcash(100000000.0)
-# strcash = cerebro.Broker.getvalue()
+strcash = cerebro.broker.getvalue()
 
 # 佣金，双边各 0.0001
 cerebro.broker.setcommission(commission=0.0001)
@@ -187,9 +186,9 @@ cerebro.addstrategy(SortinoStrategy)
 
 cerebro.addanalyzer(bt.analyzers.TimeReturn, _name='returns')
 result = cerebro.run()
-# fnlcash = cerebro.Broker.getvalue()
-# print('\t起始资金 Starting Portfolio Value: %.2f' % strcash)
-# print('\t资产总值 Final Portfolio Value: %.2f' % fnlcash)
+fnlcash = cerebro.broker.getvalue()
+print('\t起始资金 Starting Portfolio Value: %.2f' % strcash)
+print('\t资产总值 Final Portfolio Value: %.2f' % fnlcash)
 returns = result[0].analyzers.returns
 ret = pd.Series(returns.get_analysis())
 ret.to_pickle('data/sortino_strategy_returns.pkl')
