@@ -136,13 +136,14 @@ class SortinoStrategy(bt.Strategy):
 					 order.executed.size,  # 成交量
 					 order.data._name))  # 基金名称
 			else:  # Sell
-				self.log('SELL EXECUTED, ref:%.0f, Price: %.2f, Cost: %.2f, Comm %.2f, Size: %.2f, Fund: %s' %
-				         (order.ref,
-				          order.executed.price,
-				          order.executed.value,
-				          order.executed.comm,
-				          order.executed.size,
-				          order.data._name))
+				self.log(
+					'SELL EXECUTED, ref:%.0f, Price: %.2f, Cost: %.2f, Comm %.2f, Size: %.2f, Fund: %s' %
+					(order.ref,
+					order.executed.price,
+					order.executed.value,
+					order.executed.comm,
+					order.executed.size,
+					order.data._name))
 
 
 # 实例化 cerebro
